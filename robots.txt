@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /assets/img/private/
+
+# Sitemap Location
+Sitemap: https://kusenaluminium.web.id/sitemap.xml
