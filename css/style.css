@@ -390,8 +390,9 @@ a:hover h1, a:hover h2, a:hover h3, a:hover h4, a:hover h5, a:hover h6 {
   background-color: #FAF6E8 !important; /* Left side 100% blank light cream background */
   background-image: none !important;
   overflow: hidden;
-  min-height: 100vh;
-  padding: 0 !important;
+  min-height: calc(100vh - 70px);
+  padding-top: 6.5rem !important; /* Generous clearance gap below fixed header navbar */
+  padding-bottom: 3.5rem !important;
 }
 
 /* Right Side Maroon Background Layer with Smooth SVG Mask Boundary */
@@ -515,7 +516,7 @@ a:hover h1, a:hover h2, a:hover h3, a:hover h4, a:hover h5, a:hover h6 {
       url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 600' preserveAspectRatio='none'%3E%3Cpath fill='%23290708' fill-opacity='0.75' d='M0,320 C360,180 680,420 1040,280 C1240,200 1360,340 1440,290 L1440,600 L0,600 Z'%3E%3C/path%3E%3C/svg%3E") !important;
     background-size: cover !important;
     background-position: center !important;
-    padding-top: 5.2rem !important; /* Perfect 33px clearance gap with slim 50px navbar */
+    padding-top: 7rem !important; /* Generous ~47px clearance gap under fixed header navbar on mobile */
     padding-bottom: 3.5rem !important;
     min-height: auto !important;
   }
@@ -1570,12 +1571,17 @@ a:hover h1, a:hover h2, a:hover h3, a:hover h4, a:hover h5, a:hover h6 {
     grid-template-columns: repeat(3, 1fr);
     gap: 16px;
   }
+  .phase-flow-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
 }
 
 /* Tablets Portrait & Small Laptops (768px - 991px) */
 @media (max-width: 991.98px) {
   .hero-section {
-    padding: 4.5rem 0 6.5rem 0;
+    padding-top: 7rem !important;
+    padding-bottom: 5.5rem;
     text-align: center;
   }
 
@@ -1598,6 +1604,16 @@ a:hover h1, a:hover h2, a:hover h3, a:hover h4, a:hover h5, a:hover h6 {
     gap: 16px;
   }
 
+  .tech-matrix-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .phase-flow-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
   .about-img-wrap {
     margin-bottom: 1.5rem;
   }
@@ -1608,14 +1624,6 @@ a:hover h1, a:hover h2, a:hover h3, a:hover h4, a:hover h5, a:hover h6 {
     padding: 8px 14px;
     font-size: 0.85rem;
   }
-
-  .navbar-collapse {
-    background: #ffffff;
-    padding: 1rem;
-    border-radius: 14px;
-    margin-top: 10px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-  }
 }
 
 /* Mobile Phones Landscape & Small Tablets (576px - 767px) */
@@ -1624,8 +1632,20 @@ a:hover h1, a:hover h2, a:hover h3, a:hover h4, a:hover h5, a:hover h6 {
     grid-template-columns: 1fr;
   }
 
+  .tech-matrix-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .phase-flow-grid {
+    grid-template-columns: 1fr;
+  }
+
   .proses-steps {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .quick-specs-bar {
+    padding: 1rem 1.25rem;
   }
 
   .cta-card {
@@ -1643,16 +1663,16 @@ a:hover h1, a:hover h2, a:hover h3, a:hover h4, a:hover h5, a:hover h6 {
     width: 48px;
     height: 48px;
     font-size: 1.5rem;
-    bottom: 20px;
-    right: 20px;
+    bottom: 18px;
+    right: 18px;
   }
 
   .btn-back-to-top {
     width: 42px;
     height: 42px;
     font-size: 1.1rem;
-    bottom: 78px;
-    right: 23px;
+    bottom: 74px;
+    right: 21px;
   }
 }
 
@@ -1660,6 +1680,10 @@ a:hover h1, a:hover h2, a:hover h3, a:hover h4, a:hover h5, a:hover h6 {
 @media (max-width: 575.98px) {
   .proses-steps {
     grid-template-columns: 1fr;
+  }
+
+  .quick-specs-bar .row {
+    row-gap: 1rem;
   }
 
   .hero-badge-pill {
