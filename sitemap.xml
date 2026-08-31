@@ -39,9 +39,9 @@
   <!-- Blog Artikel -->
   <url>
     <loc>https://kusenaluminium.web.id/blog.html</loc>
-    <lastmod>2026-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
 
   <!-- Kontak -->
@@ -66,6 +66,30 @@
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+
+  <!-- Artikel: Kusen Aluminium Alexindo vs YKK AP Malang -->
+  <url>
+    <loc>https://kusenaluminium.web.id/kusen-aluminium-alexindo-vs-ykk-ap-malang.html</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Estimasi Biaya Pasang Kusen Aluminium Ruko Jember -->
+  <url>
+    <loc>https://kusenaluminium.web.id/estimasi-biaya-pasang-kusen-aluminium-ruko-jember.html</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Studi Kasus Partisi Kaca Tempered Kantor Banyuwangi -->
+  <url>
+    <loc>https://kusenaluminium.web.id/studi-kasus-partisi-kaca-tempered-kantor-banyuwangi.html</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
 
   <!-- Artikel: Perbandingan Kusen YKK AP vs Alexindo -->
