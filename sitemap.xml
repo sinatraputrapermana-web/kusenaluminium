@@ -39,7 +39,7 @@
   <!-- Blog Artikel -->
   <url>
     <loc>https://kusenaluminium.web.id/blog.html</loc>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -66,6 +66,30 @@
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+
+  <!-- Artikel: Tips Pintu Sliding Aluminium Kos Batu (1 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/tips-pintu-sliding-aluminium-hemat-ruang-kos-batu.html</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Cara Atasi Kusen Aluminium Bocor Hujan Klojen (1 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/cara-atasi-kusen-aluminium-bocor-hujan-klojen.html</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Kusen Aluminium Alexindo vs YKK AP Lowokwaru (1 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/kusen-aluminium-alexindo-vs-ykk-ap-lowokwaru.html</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
 
   <!-- Artikel: Kusen Aluminium Alexindo vs YKK AP Malang -->
