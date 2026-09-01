@@ -22,13 +22,14 @@ Tolong tambahkan artikel blog baru sesuai dengan SOP di PANDUAN_TAMBAH_ARTIKEL.m
 
 ## 📋 DAFTAR CHECKLIST WAJIB (WORKFLOW LENGKAP)
 
-Setiap penambahan artikel baru **WAJIB** mengeksekusi 4 langkah berikut:
+Setiap penambahan artikel baru **WAJIB** mengeksekusi 6 langkah berikut:
 
 1. **Membuat File HTML Artikel Baru (`[slug-artikel].html`)** di root project.
-2. **Menyesuaikan Tanggal Secara Otomatis** dengan tanggal hari saat pembuatan artikel (misal tanggal saat ini `31 Agustus 2026`).
-3. **Mendaftarkan Artikel Baru ke Halaman [blog.html](file:///d:/Magang%20Industri/kusenaluminiumweb/kusenaluminium/blog.html)** (masukkan sebagai kartu artikel terbaru di baris atas).
-4. **Mendaftarkan URL Baru ke [sitemap.xml](file:///d:/Magang%20Industri/kusenaluminiumweb/kusenaluminium/sitemap.xml)** beserta update `<lastmod>` tanggal hari ini.
-5. **Menjaga Internal Linking (Cross-linking)** pada blok *Baca Juga*, *Paket Rekomendasi*, dan *Artikel Terkait*.
+2. **Menyiapkan / Men-generate Gambar Visual Berkualitas** sesuai prompt di bagian panduan gambar (format 16:9, letakkan di `assets/img/`).
+3. **Menyesuaikan Tanggal Secara Otomatis** dengan tanggal hari saat pembuatan artikel (misal tanggal saat ini `31 Agustus 2026`).
+4. **Mendaftarkan Artikel Baru ke Halaman [blog.html](file:///d:/Magang%20Industri/kusenaluminiumweb/kusenaluminium/blog.html)** (masukkan sebagai kartu artikel terbaru di baris atas).
+5. **Mendaftarkan URL Baru ke [sitemap.xml](file:///d:/Magang%20Industri/kusenaluminiumweb/kusenaluminium/sitemap.xml)** beserta update `<lastmod>` tanggal hari ini.
+6. **Menjaga Internal Linking (Cross-linking)** pada blok *Baca Juga*, *Paket Rekomendasi*, dan *Artikel Terkait*.
 
 ---
 
@@ -609,3 +610,72 @@ Tambahkan entri baru di bagian bawah sebelum penutup `</urlset>`:
   </url>
 ```
 *Pastikan juga tag `<lastmod>` untuk `blog.html` di dalam `sitemap.xml` diperbarui ke tanggal hari ini.*
+
+---
+
+## 🎨 STANDAR & PROMPT GENERASI GAMBAR ARTIKEL (AI IMAGE PROMPTS)
+
+Untuk menjaga kualitas visual website tetap premium, realistis, dan relevan dengan industri kusen aluminium di Malang Raya, gunakan standar dan formula prompt berikut saat men-generate gambar menggunakan model AI (Gemini / Image Generation).
+
+### 📐 Aturan & Format Gambar
+- **Format / Resolusi**: Aspect Ratio `16:9` (format horizontal standar banner blog & kartu artikel).
+- **Lokasi Penyimpanan**: `assets/img/`
+- **Konvensi Nama File**: Gunakan nama file kebab-case deskriptif sesuai slug artikel (contoh: `assets/img/kusen-aluminium-alexindo-malang.jpg` atau `.webp`).
+- **Gaya Visual**: Fotorealistik arsitektural, pencahayaan alami cerah (natural daylight), sudut sambungan presisi miter 45°, tanpa teks aneh/watermark.
+
+---
+
+### 📚 Koleksi Prompt Master Siap Pakai (Tested Prompts)
+
+#### 1. Fasad Rumah & Hunian Modern (Contoh: Alexindo vs YKK AP Malang)
+> **Prompt**:
+> ```text
+> A realistic modern Indonesian residential house in Malang with installed black powder coated aluminium window frames and sliding glass doors, clean precision miter joints, bright natural daylight, architectural photography, hyper-realistic, elegant home exterior with green tropical plants.
+> ```
+> *Kegunaan*: Gambar utama artikel perbandingan merk, pintu lipat villa, atau kusen rumah tinggal.
+
+#### 2. Macro / Detail Teknis Profil Aluminium (Contoh: Profil YKK AP Anodize)
+> **Prompt**:
+> ```text
+> Macro architectural detail close-up of premium YKK AP aluminium window profile anodized dark brown finish, sleek precision miter corner joints, thick profile structure with clear tempered glass, modern building interior, clean professional craftsmanship, high-end architectural photo.
+> ```
+> *Kegunaan*: Gambar ilustrasi body artikel untuk edukasi ketebalan profil 3 vs 4 inch, karet sealant EPDM, atau jenis finishing anodize/powder coating.
+
+#### 3. Bangunan Komersial & Ruko (Contoh: Estimasi Biaya Ruko Kepanjen)
+> **Prompt**:
+> ```text
+> A modern two-story commercial shophouse (ruko) building in Indonesia with clean black aluminium framed glass facade, large storefront windows on first floor and casement aluminium windows on second floor, sunny daytime street view, architectural realism, clean finish.
+> ```
+> *Kegunaan*: Gambar utama artikel estimasi biaya ruko, etalase kaca, dan proyek komersial.
+
+#### 4. Proses Fabrikasi / Pemasangan Teknisi di Lapangan
+> **Prompt**:
+> ```text
+> Professional skilled Asian construction technician in safety vest and gloves meticulously installing black aluminium window frame on building wall using level and drill, precise workmanship, sharp focus, clean professional construction site photography.
+> ```
+> *Kegunaan*: Gambar pendukung untuk artikel tips pemasangan, pencegahan kebocoran, atau studi kasus instalasi.
+
+#### 5. Partisi Kaca Kantor & Ruang Meeting (Contoh: Partisi Kaca Pakis)
+> **Prompt**:
+> ```text
+> Modern minimalist office meeting room interior with sleek frameless and slim aluminium frame 12mm tempered glass partition walls, clean frosted band design, boardroom table, ergonomic chairs, bright natural lighting, professional office architectural photography.
+> ```
+> *Kegunaan*: Gambar utama artikel partisi kaca kantor, sekat tempered, atau ruang komersial.
+
+#### 6. Sekat Kaca Minimalis / Ruang Kerja Terbuka
+> **Prompt**:
+> ```text
+> Clean modern contemporary office interior with aluminium framed glass partition dividers between work desks and private office booths, bright ambient lighting, aesthetic minimalist workspace, high resolution.
+> ```
+> *Kegunaan*: Gambar pelengkap partisi kaca, cubicle kantor, dan desain interior modern.
+
+---
+
+### 🧩 Formula Template Pembuatan Prompt Baru (Reusable Formula)
+
+Jika membuat prompt untuk topik artikel baru lainnya, ikuti struktur formula 5 elemen berikut:
+
+```text
+[Tipe Subjek Bangunan/Ruang] + [Spesifikasi Kusen Aluminium / Kaca / Warna Finishing] + [Lokasi & Konteks Wilayah Malang/Indonesia] + [Detail Arsitektural & Pencahayaan Natural] + [Style Directive: architectural photography, hyper-realistic, sharp focus, 16:9]
+```
+
