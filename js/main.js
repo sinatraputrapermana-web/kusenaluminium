@@ -128,8 +128,8 @@ function initLightboxModal() {
       if (e.target.closest('a.btn')) return;
 
       const img = wrapper.querySelector('img');
-      const titleEl = wrapper.closest('.product-card')?.querySelector('.product-title') || 
-                      wrapper.querySelector('.portfolio-overlay-title');
+      const titleEl = wrapper.closest('.product-card')?.querySelector('.product-title') ||
+        wrapper.querySelector('.portfolio-overlay-title');
 
       if (img) {
         modalImg.src = img.src;
@@ -169,13 +169,13 @@ function initEstimatorForm() {
 
     if (brand.includes('YKK')) baseRate = 220000;
     else if (brand.includes('Forta')) baseRate = 125000;
-    
+
     if (profileSize.includes('4')) baseRate += 35000;
 
     const estimatedCost = totalMeterLari * baseRate;
     const formattedCost = new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR', maximumFractionDigits: 0 }).format(estimatedCost);
 
-    const phoneNo = '6288989643555'; 
+    const phoneNo = '6288989643555';
     const message = `Halo KUSEN ALUMINIUM Malang, saya ingin berkonsultasi & meminta penawaran harga resmi:
 
 📌 *Detail Pesanan Estimasi:*
@@ -235,8 +235,8 @@ function initProductFilter() {
 function highlightActiveNav() {
   const currentPath = window.location.pathname.split('/').pop() || 'index.html';
   const navLinks = document.querySelectorAll('.navbar-alu .nav-link');
-  const isArticlePage = currentPath.endsWith('.html') && 
-                        !['index.html', 'tentang-kami.html', 'portofolio.html', 'galeri.html', 'blog.html'].includes(currentPath);
+  const isArticlePage = currentPath.endsWith('.html') &&
+    !['index.html', 'tentang-kami.html', 'portofolio.html', 'galeri.html', 'blog.html'].includes(currentPath);
 
   navLinks.forEach(link => {
     const href = link.getAttribute('href');
@@ -372,7 +372,7 @@ function initShareButtons() {
             navigator.share({
               title: document.title,
               url: window.location.href
-            }).catch(() => {});
+            }).catch(() => { });
             return;
           }
           break;

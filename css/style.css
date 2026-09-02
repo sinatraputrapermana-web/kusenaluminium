@@ -1683,34 +1683,61 @@ a:hover h1, a:hover h2, a:hover h3, a:hover h4, a:hover h5, a:hover h6 {
   }
 
   .quick-specs-bar {
-    padding: 1.25rem 1rem;
+    padding: 1rem 0.85rem;
+    border-radius: 20px;
+    margin-top: 1.25rem;
+    margin-bottom: 0.75rem;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(59, 11, 12, 0.07);
+    border: 1px solid rgba(192, 125, 59, 0.2);
   }
 
   .quick-specs-bar .row {
-    row-gap: 1.25rem;
+    row-gap: 0.65rem;
   }
 
   .spec-item {
-    align-items: flex-start;
-    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+    padding: 12px 14px;
+    background: #faf8f5;
+    border: 1px solid rgba(192, 125, 59, 0.18);
+    border-radius: 14px;
+    box-shadow: 0 2px 6px rgba(59, 11, 12, 0.03);
+    height: 100%;
+    width: 100%;
   }
 
   .spec-icon-circle {
-    width: 42px;
-    height: 42px;
-    font-size: 1.2rem;
-    border-radius: 10px;
-    margin-top: 1px;
+    width: 44px;
+    height: 44px;
+    font-size: 1.25rem;
+    border-radius: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-shrink: 0;
+  }
+
+  .spec-text-block {
+    flex: 1;
+    min-width: 0;
   }
 
   .spec-title {
-    font-size: 0.85rem;
+    font-size: 0.92rem;
+    font-weight: 700;
     line-height: 1.25;
+    margin-bottom: 2px;
+    color: var(--color-primary-dark, #3b0b0c);
+    word-break: normal;
+    overflow-wrap: break-word;
   }
 
   .spec-subtitle {
-    font-size: 0.75rem;
-    line-height: 1.2;
+    font-size: 0.78rem;
+    line-height: 1.25;
+    color: #6c757d;
   }
 
   .hero-badge-pill {

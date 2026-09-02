@@ -24,11 +24,11 @@ Tolong tambahkan artikel blog baru sesuai dengan SOP di PANDUAN_TAMBAH_ARTIKEL.m
 
 Setiap penambahan artikel baru **WAJIB** mengeksekusi 6 langkah berikut:
 
-1. **Membuat File HTML Artikel Baru (`[slug-artikel].html`)** di root project.
+1. **Membuat File HTML Artikel Baru (`blog/[slug-artikel].html`)** di folder `blog/`.
 2. **Menyiapkan / Men-generate Gambar Visual Berkualitas** sesuai prompt di bagian panduan gambar (format 16:9, letakkan di `assets/img/`).
 3. **Menyesuaikan Tanggal Secara Otomatis** dengan tanggal hari saat pembuatan artikel (misal tanggal saat ini `31 Agustus 2026`).
-4. **Mendaftarkan Artikel Baru ke Halaman [blog.html](file:///d:/Magang%20Industri/kusenaluminiumweb/kusenaluminium/blog.html)** (masukkan sebagai kartu artikel terbaru di baris atas).
-5. **Mendaftarkan URL Baru ke [sitemap.xml](file:///d:/Magang%20Industri/kusenaluminiumweb/kusenaluminium/sitemap.xml)** beserta update `<lastmod>` tanggal hari ini.
+4. **Mendaftarkan Artikel Baru ke Halaman [page/blog.html](file:///d:/Magang%20Industri/kusenaluminiumweb/kusenaluminium/page/blog.html)** (masukkan sebagai kartu artikel terbaru di baris atas dengan link `../blog/[slug-artikel].html`).
+5. **Mendaftarkan URL Baru ke [sitemap.xml](file:///d:/Magang%20Industri/kusenaluminiumweb/kusenaluminium/sitemap.xml)** beserta update `<lastmod>` tanggal hari ini (`https://kusenaluminium.web.id/blog/[slug-artikel].html`).
 6. **Menjaga Internal Linking (Cross-linking)** pada blok *Baca Juga*, *Paket Rekomendasi*, dan *Artikel Terkait*.
 
 ---
@@ -45,19 +45,19 @@ Tanggal artikel **wajib disesuaikan dengan tanggal hari saat artikel dibuat**:
 
 ## 📐 ANATOMI LAYOUT ARTIKEL (WAJIB LENGKAP)
 
-File artikel baru harus memiliki struktur layout persis seperti artikel acuan (`keunggulan-pintu-lipat-aluminium-villa-batu.html`), yang terdiri dari:
+File artikel baru harus memiliki struktur layout persis seperti artikel acuan (`blog/keunggulan-pintu-lipat-aluminium-villa-batu.html`), yang terdiri dari:
 
 ### 1. Header & Head Tags SEO
 - `<title>`: `[Judul Artikel Menarik & Berbobot] | KUSEN ALUMINIUM Malang`
 - `<meta name="description">`: Ringkasan 140–160 karakter memuat keyword utama dan lokasi Malang.
 - `<meta name="keywords">`: 5–8 keyword relevan.
 - `<meta name="author" content="Muhammad Musyaffa">`
-- `<link rel="canonical" href="https://kusenaluminium.web.id/[slug-artikel].html">`
+- `<link rel="canonical" href="https://kusenaluminium.web.id/blog/[slug-artikel].html">`
 - Tag Favicon WebP, Open Graph (og:type=article, og:title, og:description, og:url, og:image, og:published_time), Geo tags Malang.
-- Load Google Fonts (Plus Jakarta Sans), Bootstrap 5.3 CSS, Bootstrap Icons 1.11.3, dan `css/style.css?v=2.1`.
+- Load Google Fonts (Plus Jakarta Sans), Bootstrap 5.3 CSS, Bootstrap Icons 1.11.3, dan `../css/style.css?v=2.1`.
 
 ### 2. Header & Sticky Navbar
-- Navbar brand Kusen Aluminium dengan link menu: Beranda, Tentang Kami, Portofolio, Galeri, Blog (status `active`), dan Tombol `Minta Penawaran`.
+- Navbar brand Kusen Aluminium dengan link menu: `../page/index.html` (Beranda), `../page/tentang-kami.html` (Tentang Kami), `../page/portofolio.html` (Portofolio), `../page/galeri.html` (Galeri), `../page/blog.html` (Blog status `active`), dan Tombol `../page/index.html#estimator` (Minta Penawaran).
 
 ### 3. Konten Utama Artikel (`<main>` -> `col-lg-8`)
 1. **Section Clearance**: `<section class="blog-detail-section" style="padding-top: 130px !important;">`
