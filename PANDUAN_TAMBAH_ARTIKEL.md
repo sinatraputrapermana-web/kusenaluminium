@@ -27,7 +27,7 @@ Setiap penambahan artikel baru **WAJIB** mengeksekusi 6 langkah berikut:
 1. **Membuat File HTML Artikel Baru (`blog/[slug-artikel].html`)** di folder `blog/`.
 2. **Menyiapkan / Men-generate Gambar Visual Berkualitas** sesuai prompt di bagian panduan gambar (format 16:9, letakkan di `assets/img/`).
 3. **Menyesuaikan Tanggal Secara Otomatis** dengan tanggal hari saat pembuatan artikel (misal tanggal saat ini `31 Agustus 2026`).
-4. **Mendaftarkan Artikel Baru ke Halaman [page/blog.html](file:///d:/Magang%20Industri/kusenaluminiumweb/kusenaluminium/page/blog.html)** (masukkan sebagai kartu artikel terbaru di baris atas dengan link `../blog/[slug-artikel].html`).
+4. **Mendaftarkan Artikel Baru ke Halaman [blog.html](file:///d:/Magang%20Industri/kusenaluminiumweb/kusenaluminium/blog.html)** (masukkan sebagai kartu artikel terbaru di baris atas dengan link `../blog/[slug-artikel].html`).
 5. **Mendaftarkan URL Baru ke [sitemap.xml](file:///d:/Magang%20Industri/kusenaluminiumweb/kusenaluminium/sitemap.xml)** beserta update `<lastmod>` tanggal hari ini (`https://kusenaluminium.web.id/blog/[slug-artikel].html`).
 6. **Menjaga Internal Linking (Cross-linking)** pada blok *Baca Juga*, *Paket Rekomendasi*, dan *Artikel Terkait*.
 
@@ -57,7 +57,7 @@ File artikel baru harus memiliki struktur layout persis seperti artikel acuan (`
 - Load Google Fonts (Plus Jakarta Sans), Bootstrap 5.3 CSS, Bootstrap Icons 1.11.3, dan `../css/style.css?v=2.1`.
 
 ### 2. Header & Sticky Navbar
-- Navbar brand Kusen Aluminium dengan link menu: `../page/index.html` (Beranda), `../page/tentang-kami.html` (Tentang Kami), `../page/portofolio.html` (Portofolio), `../page/galeri.html` (Galeri), `../page/blog.html` (Blog status `active`), dan Tombol `../page/index.html#estimator` (Minta Penawaran).
+- Navbar brand Kusen Aluminium dengan link menu: `../index.html` (Beranda), `../tentang-kami.html` (Tentang Kami), `../portofolio.html` (Portofolio), `../galeri.html` (Galeri), `../blog.html` (Blog status `active`), dan Tombol `../index.html#estimator` (Minta Penawaran).
 
 ### 3. Konten Utama Artikel (`<main>` -> `col-lg-8`)
 1. **Section Clearance**: `<section class="blog-detail-section" style="padding-top: 130px !important;">`

@@ -12,17 +12,9 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- Halaman Utama -->
-  <url>
-    <loc>https://kusenaluminium.web.id/page/index.html</loc>
-    <lastmod>2026-09-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.95</priority>
-  </url>
-
   <!-- Tentang Kami -->
   <url>
-    <loc>https://kusenaluminium.web.id/page/tentang-kami.html</loc>
+    <loc>https://kusenaluminium.web.id/tentang-kami.html</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -30,7 +22,7 @@
 
   <!-- Portofolio -->
   <url>
-    <loc>https://kusenaluminium.web.id/page/portofolio.html</loc>
+    <loc>https://kusenaluminium.web.id/portofolio.html</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -38,7 +30,7 @@
 
   <!-- Galeri Produk -->
   <url>
-    <loc>https://kusenaluminium.web.id/page/galeri.html</loc>
+    <loc>https://kusenaluminium.web.id/galeri.html</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -46,7 +38,7 @@
 
   <!-- Blog Artikel Catalog -->
   <url>
-    <loc>https://kusenaluminium.web.id/page/blog.html</loc>
+    <loc>https://kusenaluminium.web.id/blog.html</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -54,7 +46,7 @@
 
   <!-- Kontak -->
   <url>
-    <loc>https://kusenaluminium.web.id/page/kontak.html</loc>
+    <loc>https://kusenaluminium.web.id/kontak.html</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -62,7 +54,7 @@
 
   <!-- Layanan -->
   <url>
-    <loc>https://kusenaluminium.web.id/page/layanan.html</loc>
+    <loc>https://kusenaluminium.web.id/layanan.html</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -70,7 +62,7 @@
 
   <!-- Produk -->
   <url>
-    <loc>https://kusenaluminium.web.id/page/produk.html</loc>
+    <loc>https://kusenaluminium.web.id/produk.html</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

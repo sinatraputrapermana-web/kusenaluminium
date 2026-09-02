@@ -1,0 +1,11 @@
+# 301 Permanent Redirects from /page/ to root
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Redirect /page/index.html to /
+  RewriteRule ^page/index\.html$ / [R=301,L]
+
+  # Redirect /page/(.*) to /$1
+  RewriteRule ^page/(.*)$ /$1 [R=301,L]
+</IfModule>

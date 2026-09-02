@@ -239,8 +239,9 @@ function highlightActiveNav() {
     !['index.html', 'tentang-kami.html', 'portofolio.html', 'galeri.html', 'blog.html'].includes(currentPath);
 
   navLinks.forEach(link => {
-    const href = link.getAttribute('href');
-    if (href === currentPath || (currentPath === '' && href === 'index.html') || (isArticlePage && href === 'blog.html')) {
+    const href = link.getAttribute('href') || '';
+    const hrefFile = href.split('#')[0].split('/').pop();
+    if (hrefFile === currentPath || (currentPath === 'index.html' && hrefFile === 'index.html') || (isArticlePage && hrefFile === 'blog.html')) {
       link.classList.add('active');
     } else {
       link.classList.remove('active');
