@@ -39,7 +39,7 @@
   <!-- Blog Artikel Catalog -->
   <url>
     <loc>https://kusenaluminium.web.id/blog.html</loc>
-    <lastmod>2026-09-03</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -184,6 +184,54 @@
   <url>
     <loc>https://kusenaluminium.web.id/blog/estimasi-biaya-pasang-kusen-aluminium-ruko-malang.html</loc>
     <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Studi Kasus Partisi Kaca Tempered Kantor Kepanjen (4 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/studi-kasus-partisi-kaca-tempered-kantor-kepanjen.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Tips Pintu Sliding Aluminium Kos Pakis (4 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/tips-pintu-sliding-aluminium-hemat-ruang-kos-pakis.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Cara Atasi Kusen Aluminium Bocor Hujan Batu (4 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/cara-atasi-kusen-aluminium-bocor-hujan-batu.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Kusen Aluminium Alexindo vs YKK AP Klojen (5 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/kusen-aluminium-alexindo-vs-ykk-ap-klojen.html</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Estimasi Biaya Pasang Kusen Aluminium Ruko Lowokwaru (5 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/estimasi-biaya-pasang-kusen-aluminium-ruko-lowokwaru.html</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Studi Kasus Partisi Kaca Tempered Kantor Sukun (5 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/studi-kasus-partisi-kaca-tempered-kantor-sukun.html</loc>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
