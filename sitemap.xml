@@ -39,7 +39,7 @@
   <!-- Blog Artikel Catalog -->
   <url>
     <loc>https://kusenaluminium.web.id/blog.html</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -232,6 +232,30 @@
   <url>
     <loc>https://kusenaluminium.web.id/blog/studi-kasus-partisi-kaca-tempered-kantor-sukun.html</loc>
     <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Tips Pintu Sliding Aluminium Kos Blimbing (7 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/tips-pintu-sliding-aluminium-hemat-ruang-kos-blimbing.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Cara Atasi Kusen Aluminium Bocor Hujan Deras Karangploso (7 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/cara-atasi-kusen-aluminium-bocor-hujan-deras-karangploso.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Kusen Aluminium Alexindo vs YKK AP Dau (7 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/kusen-aluminium-alexindo-vs-ykk-ap-dau.html</loc>
+    <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
