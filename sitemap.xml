@@ -39,7 +39,7 @@
   <!-- Blog Artikel Catalog -->
   <url>
     <loc>https://kusenaluminium.web.id/blog.html</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -296,6 +296,22 @@
   <url>
     <loc>https://kusenaluminium.web.id/blog/material-kusen-aluminium.html</loc>
     <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Ketebalan Profil Aluminium 1.1mm vs 1.35mm (10 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/ketebalan-profil-aluminium-1-1-vs-1-35.html</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Proses Fabrikasi Kusen Aluminium di Workshop Malang (10 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/proses-fabrikasi-kusen-aluminium.html</loc>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>

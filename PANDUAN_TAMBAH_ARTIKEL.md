@@ -10,11 +10,14 @@ Dokumen ini adalah panduan standar dan instruksi otomatis untuk pembuatan artike
 Cukup berikan perintah singkat di chat seperti berikut:
 
 ```text
-Tolong tambahkan artikel blog baru sesuai dengan SOP di PANDUAN_TAMBAH_ARTIKEL.md dengan:
-- Judul / Topik : [Contoh: Kelebihan Jendela Sliding Aluminium Minimalis untuk Rumah Modern]
-- Kategori      : [Contoh: Jendela Aluminium / Pintu Aluminium / Tips & Perawatan / Kusen]
-- Kata Kunci    : [Contoh: jendela sliding aluminium malang, harga jendela sliding, kelebihan sliding window]
-- Gambar Utama  : [Contoh: assets/img/jendela-sliding.webp]
+Tolong buatkan artikel blog baru sesuai dengan SOP di PANDUAN_TAMBAH_ARTIKEL.md dengan:
+- Judul Artikel    : [Contoh: Jasa Pasang Kusen Aluminium Malang: Proses, Garansi, & Estimasi Biaya]
+- Kategori         : [Contoh: Jasa & Pemasangan / Material & Spesifikasi / Tips & Inspirasi]
+- Primary Keyword  : [Contoh: jasa pasang kusen aluminium]
+- Secondary Keyword: [Contoh: kusen aluminium Malang, garansi pemasangan kusen, presisi miter 45 derajat]
+- Search Intent    : [Contoh: Transactional / Informational / Commercial]
+- Gambar Utama     : [Contoh: assets/img/jasa-pasang-kusen-aluminium-malang.webp]
+- Aturan Khusus    : Tanpa nomor urut pada heading/TOC dan tanpa bagian daftar sumber
 ```
 *(Jika salah satu data di atas tidak diisi oleh user, asisten AI wajib menentukan konten terbaik secara otomatis yang relevan dengan bisnis Kusen Aluminium Malang).*
 
@@ -22,34 +25,85 @@ Tolong tambahkan artikel blog baru sesuai dengan SOP di PANDUAN_TAMBAH_ARTIKEL.m
 
 ## 📋 DAFTAR CHECKLIST WAJIB (WORKFLOW LENGKAP)
 
-Setiap penambahan artikel baru **WAJIB** mengeksekusi langkah-langkah berikut:
+Setiap penambahan artikel baru **WAJIB** mengeksekusi langkah-langkah berikut secara berurutan:
 
-1. **Membuat File HTML Artikel Baru (`blog/[slug-artikel].html`)** di folder `blog/`.
-2. **Menyiapkan / Men-generate Gambar Visual Berkualitas** sesuai prompt di bagian panduan gambar (format 16:9, letakkan di `assets/img/`).
-3. **Menyesuaikan Tanggal Secara Otomatis** dengan tanggal hari saat pembuatan artikel (misal tanggal saat ini `31 Agustus 2026`).
-4. **Mendaftarkan Artikel Baru ke Halaman [blog.html](file:///d:/Magang%20Industri/kusenaluminiumweb/kusenaluminium/blog.html)** (masukkan sebagai kartu artikel terbaru di baris atas dengan link `../blog/[slug-artikel].html`).
-5. **Mendaftarkan URL Baru ke [sitemap.xml](file:///d:/Magang%20Industri/kusenaluminiumweb/kusenaluminium/sitemap.xml)** beserta update `<lastmod>` tanggal hari ini (`https://kusenaluminium.web.id/blog/[slug-artikel].html`).
-6. **Menjaga Internal Linking (Cross-linking)** pada blok *Baca Juga*, *Paket Rekomendasi*, dan *Artikel Terkait*.
-7. **Patuhi Aturan Penulisan Subjudul & Sumber**:
-   - Subjudul (`<h2>`, `<h3>`) dan Daftar Isi (TOC) **TIDAK PERLU diberi nomor urut** (tanpa angka `1. `, `2. `, dst).
-   - **TIDAK PERLU menambahkan bagian "Daftar Sumber"** / bibliografi / daftar pustaka di akhir artikel.
+1. **Riset & Tentukan Parameter SEO**:
+   - Tentukan **Primary Keyword** (1 kata kunci utama target ranking).
+   - Tentukan **Secondary Keyword** (3–4 kata kunci pendukung/LSI dipisah koma).
+   - Tentukan **Search Intent** (`Informational`, `Transactional`, atau `Commercial`).
+   - Rumuskan **Judul Artikel** yang memikat dan memuat kata kunci utama.
+2. **Membuat File HTML Artikel Baru (`blog/[slug-artikel].html`)** di folder `blog/`.
+3. **Menyiapkan / Men-generate Gambar Visual Berkualitas** sesuai prompt panduan gambar (format 16:9, letakkan di `assets/img/`).
+4. **Menyesuaikan Tanggal Secara Otomatis** dengan tanggal hari saat artikel dibuat.
+5. **Menerapkan Aturan Format Penulisan Konten**:
+   - Subjudul (`<h2>`, `<h3>`) dan Daftar Isi (TOC) **TIDAK BOLEH diberi nomor urut** (tanpa angka `1. `, `2. `, dst).
+   - **TIDAK PERLU menambahkan bagian "Daftar Sumber"** / daftar pustaka di akhir artikel.
+   - Distribusikan primary & secondary keywords secara natural ke dalam artikel sesuai search intent.
+6. **Mendaftarkan Artikel Baru ke Halaman [blog.html](file:///d:/Magang%20Industri/kusenaluminiumweb/kusenaluminium/blog.html)** (kartu artikel terbaru di baris paling atas).
+7. **Mendaftarkan URL Baru ke [sitemap.xml](file:///d:/Magang%20Industri/kusenaluminiumweb/kusenaluminium/sitemap.xml)** beserta update `<lastmod>` tanggal hari ini.
+8. **Menjaga Internal Linking (Cross-linking)** pada blok *Baca Juga*, *Paket Rekomendasi*, dan *Artikel Terkait*.
+9. **Sinkronisasi File Dokumentasi Markdown (`.md`)** jika artikel bersangkutan memiliki file `.md`.
 
 ---
 
-## 🚫 ATURAN PENULISAN HEADING & DAFTAR SUMBER (WAJIB DIPATUHI)
+## 🎯 STANDAR PENULISAN KONTEN & STRATEGI SEO (SOP TERBARU)
 
 > [!IMPORTANT]
-> **Dua aturan baku dalam penulisan seluruh artikel blog:**
-> 
-> 1. **Heading / Subjudul (`<h2>`, `<h3>`, dst.) TIDAK Perlu Diberi Nomor Urut:**
->    - **JANGAN** memberi angka/penomoran seperti `1. `, `2. `, `3. ` pada tag heading (`<h2>`/`<h3>`) maupun pada teks link di **Daftar Isi Artikel (TOC)**.
->    - Gunakan kalimat subjudul langsung secara deskriptif dan natural (contoh yang benar: `<h2 id="keunggulan-pintu-sliding">Keunggulan Pintu Sliding Aluminium</h2>`, **BUKAN** `<h2 id="...">1. Keunggulan Pintu Sliding Aluminium</h2>`).
->    - Ini menjaga struktur hierarki heading tetap bersih, profesional, dan lebih optimal untuk SEO.
-> 
-> 2. **TIDAK Perlu Menambahkan Bagian "Daftar Sumber":**
->    - Blog website ini ditujukan untuk calon klien/konsumen arsitektur hunian & komersial, **bukan jurnal akademik**.
->    - **JANGAN** membuat section khusus "Daftar Sumber", daftar pustaka, atau referensi sitasi di akhir artikel (baik sebagai `<h2>`, teks `<p>`, maupun `<ul>`).
->    - Jika terdapat rujukan teknis seperti standar SNI, ASTM, atau ISO, sebutkan secara ringkas dan mengalir langsung di dalam teks paragraf terkait.
+> **Seluruh penulisan artikel wajib mematuhi 6 pilar standar berikut:**
+
+### 1. Heading (`<h2>`, `<h3>`) & Daftar Isi (TOC) Bebas Nomor Urut
+- **DILARANG KERAS** memberi angka atau penomoran seperti `1. `, `2. `, `3. ` pada tag heading (`<h2>`/`<h3>`) maupun pada teks anchor link di **Daftar Isi Artikel (TOC)**.
+- Tuliskan subjudul langsung secara deskriptif, lugas, dan mengalir natural.
+  - **Benar:** `<h2 id="proses-pengerjaan-kusen">Proses Pengerjaan Kusen Aluminium dari Awal sampai Selesai</h2>`
+  - **Salah:** `<h2 id="...">1. Proses Pengerjaan Kusen Aluminium dari Awal sampai Selesai</h2>`
+- Ini memastikan struktur heading dokumen HTML bersih, modern, dan tidak merusak hierarki indexing mesin pencari.
+
+### 2. Peniadaan Bagian "Daftar Sumber" (No Bibliography Section)
+- Website ini adalah website komersial dan edukatif dari produsen aplikator kusen aluminium di Malang Raya, **bukan karya tulis akademik/jurnal ilmiah**.
+- **JANGAN** membuat bagian/section khusus "Daftar Sumber", daftar pustaka, bibliografi, atau sitasi referensi di akhir artikel (baik berupa `<h2>`, `<p>`, maupun `<ul>`).
+- Apabila terdapat data teknis atau rujukan standar (seperti ASTM B117, SNI 1726:2019, ISO 9001, atau uji lab UTM), integrasikan langsung ke dalam paragraf pembahasan secara wajar tanpa memecah flow pembaca.
+
+### 3. Struktur Kata Kunci (Primary & Secondary Keywords)
+- **Primary Keyword**: 1 kata kunci utama target ranking Google (contoh: `jasa pasang kusen aluminium` atau `material kusen aluminium`).
+- **Secondary Keyword**: 3–4 kata kunci pendukung spesifik (contoh: `kusen aluminium Malang, garansi pemasangan kusen, presisi miter 45 derajat`).
+- **Wajib Didistribusikan Secara Alami (Natural Placement) pada:**
+  1. `<title>` & `<h1>`
+  2. `<meta name="description">`
+  3. `<meta name="keywords">`
+  4. Open Graph (`og:title`, `og:description`)
+  5. Schema.org Article JSON-LD (`headline`, `description`, `keywords`)
+  6. **Ringkasan Inti (Summary Box)**: Diintegrasikan pada paragraf dan poin keunggulan.
+  7. **Paragraf Pembuka (Lead Paragraph)**: Wajib memuat primary keyword dan secondary keywords di 1–2 kalimat pertama.
+  8. **Badan Artikel / Subjudul (`<h2>`)**: Minimal satu subjudul atau paragraf pembahasannya mengulas turunan keyword.
+  9. **Paragraf Kesimpulan**: Merangkum pesan kunci dengan penegasan primary/secondary keyword.
+  10. **Tag Pills Footer**: Kumpulan badge di bawah artikel memuat seluruh keyword utama.
+
+### 4. Penyesuaian Search Intent & Tone of Voice
+- **Informational Intent**:
+  - *Tujuan*: Menjawab pertanyaan edukasi, mengulas parameter teknis, ketebalan profil, standar pengujian, dan panduan memilih material.
+  - *Tone of Voice*: Obyektif, edukatif, analitis, dan mencerahkan.
+  - *Lead & CTA*: Mengajak pembaca memahami standar sebelum membeli; CTA mengarah ke konsultasi spesifikasi teknis dan galeri portofolio.
+- **Transactional Intent**:
+  - *Tujuan*: Mengakuisisi calon pelanggan yang siap memasang atau mengganti kusen, pintu, atau jendela.
+  - *Tone of Voice*: Solutif, meyakinkan, profesional, transparan.
+  - *Fokus Konten*: Keunggulan aplikator, survei lokasi gratis, transparansi RAB tanpa biaya siluman, presisi sambungan miter 45 derajat, kartu garansi resmi pengerjaan tertulis, dan portofolio proyek riil.
+  - *Lead & CTA*: Menyapa langsung kebutuhan pembeli; CTA mengarah ke penawaran harga, hitung biaya (estimator), dan kontak WhatsApp.
+- **Commercial Investigation Intent**:
+  - *Tujuan*: Membandingkan opsi merek atau profil (contoh: *YKK AP vs Alexindo*, profil 3 inch vs 4 inch, tebal 1.1 mm vs 1.35 mm).
+  - *Fokus Konten*: Analisis komparasi kelebihan vs kekurangan, perbandingan harga, dan rekomendasi peruntukan bangunan.
+
+### 5. Format Judul & Brand Suffix
+- **Tag `<title>`**: `[Judul Artikel Menarik & Berbobot] | KUSEN ALUMINIUM Malang`
+- **Tag `<h1>` (Main Title)**: `[Judul Artikel Menarik & Berbobot]` (murni tanpa suffix brand).
+- **Tag `og:title` & Schema `headline`**: `[Judul Artikel Menarik & Berbobot]`.
+
+### 6. Aturan Sinkronisasi Multi-File saat Perubahan Judul / Metadata
+Setiap kali ada pembaruan judul, kata kunci, atau penambahan artikel baru, pastikan seluruh file berikut disinkronkan secara konsisten:
+- File artikel HTML utama: `blog/[slug-artikel].html`
+- Kartu artikel di halaman indeks blog: `blog.html`
+- Tautan artikel terkait di blog lain (blok *Baca Juga* & widget *Artikel Terkait*)
+- File dokumen markdown pendukung: `[slug-artikel].md` (jika ada)
+- Sitemap: `sitemap.xml`
 
 ---
 
@@ -153,6 +207,71 @@ Gunakan template HTML di bawah ini sebagai pondasi pembuatan file artikel baru:
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css?v=2.1">
+
+  <!-- Schema.org Article & FAQPage JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "{{JUDUL_OG}}",
+        "description": "{{DESKRIPSI_OG}}",
+        "keywords": "{{PRIMARY_KEYWORD}}, {{SECONDARY_KEYWORDS}}",
+        "image": "https://kusenaluminium.web.id/{{PATH_GAMBAR_UTAMA}}",
+        "author": {
+          "@type": "Person",
+          "name": "Muhammad Musyaffa",
+          "jobTitle": "Kepala Teknisi Aplikator",
+          "worksFor": {
+            "@type": "HomeAndConstructionBusiness",
+            "name": "KUSEN ALUMINIUM Malang"
+          }
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "KUSEN ALUMINIUM Malang",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://kusenaluminium.web.id/assets/img/favicon.webp"
+          }
+        },
+        "datePublished": "{{TANGGAL_ISO}}",
+        "dateModified": "{{TANGGAL_ISO}}",
+        "mainEntityOfPage": "https://kusenaluminium.web.id/{{SLUG_FILE}}.html"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "{{FAQ_TANYA_1}}",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "{{FAQ_JAWAB_1}}"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "{{FAQ_TANYA_2}}",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "{{FAQ_JAWAB_2}}"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "{{FAQ_TANYA_3}}",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "{{FAQ_JAWAB_3}}"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body class="blog-details-page">
 
