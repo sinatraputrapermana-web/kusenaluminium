@@ -1,10 +1,11 @@
 [ARTIKEL CLUSTER 1]
 BAGIAN 1: METADATA SEO
-Meta Title Jurnalistik: Standar Material Kusen Aluminium: Ketebalan & Mutu
-Meta Description: Kupas tuntas standar material kusen aluminium kami: ketebalan profil, alloy 6063/6061, hingga uji korosi. Biar Anda tidak salah pilih spesifikasi.
+Meta Title Jurnalistik: Standar Material Aluminium yang Kami Gunakan: Ketebalan, Ketahanan, Kualitas
+Meta Description: Ketahui standar material aluminium yang kami gunakan: mulai dari material kusen aluminium, ketebalan profil aluminium, hingga ketahanan korosi kusen bersertifikasi.
 Saran Permalink: /material-kusen-aluminium
 Primary Keyword: material kusen aluminium
 Secondary Keyword: ketebalan profil aluminium, ketahanan korosi kusen, standar material kami
+Search Intent: informational
 BAGIAN 2: ARTIKEL LENGKAP
 Material kusen aluminium yang kami pakai wajib memenuhi standar ketebalan 1,2 mm sampai 3,0 mm sesuai fungsinya, memakai paduan alloy 6063 atau 6061 bersertifikat, dan lolos uji ketahanan korosi standar internasional.
 Ini bukan angka sembarangan, tapi acuan yang menentukan apakah kusen Anda akan tahan puluhan tahun atau malah bengkok dalam hitungan bulan.
@@ -55,7 +56,3 @@ Apakah ketebalan 1,0 mm cukup aman untuk jendela rumah?
 Cukup aman untuk jendela kecil di area interior, tapi untuk jendela utama sebaiknya minimal 1,2 mm agar lebih stabil menahan beban angin dan kaca. Untuk pintu geser atau bukaan besar, disarankan naik ke 1,4 mm sampai 1,5 mm.
 Berapa lama aluminium bisa bertahan tanpa berkarat?
 Aluminium bisa bertahan tanpa berkarat hingga 50 tahun atau lebih berkat lapisan oksida pelindung alaminya, bahkan di daerah pesisir. Ketahanan ini bisa makin maksimal dengan tambahan finishing anodizing atau powder coating berkualitas.
-DAFTAR SUMBER
-Manik, M., Setiawan, I. C., & Rahmalina, D. (2022). Sifat Mekanis Paduan Aluminium A356 dengan Penambahan Unsur Tembaga Hasil Proses Gravity Casting. JTERA (Jurnal Teknologi Rekayasa), Vol. 7, No. 2, Hal. 201-208. p-ISSN: 2548-737X, e-ISSN: 2548-8678.
-ASTM International. ASTM B117: Standard Practice for Operating Salt Spray (Fog) Apparatus. West Conshohocken, PA.
-Badan Standardisasi Nasional (BSN). SNI 1726:2019: Tata Cara Perencanaan Ketahanan Gempa untuk Struktur Bangunan Gedung dan Non Gedung. Jakarta: BSN.

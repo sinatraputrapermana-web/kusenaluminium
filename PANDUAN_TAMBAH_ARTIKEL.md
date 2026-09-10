@@ -22,7 +22,7 @@ Tolong tambahkan artikel blog baru sesuai dengan SOP di PANDUAN_TAMBAH_ARTIKEL.m
 
 ## 📋 DAFTAR CHECKLIST WAJIB (WORKFLOW LENGKAP)
 
-Setiap penambahan artikel baru **WAJIB** mengeksekusi 6 langkah berikut:
+Setiap penambahan artikel baru **WAJIB** mengeksekusi langkah-langkah berikut:
 
 1. **Membuat File HTML Artikel Baru (`blog/[slug-artikel].html`)** di folder `blog/`.
 2. **Menyiapkan / Men-generate Gambar Visual Berkualitas** sesuai prompt di bagian panduan gambar (format 16:9, letakkan di `assets/img/`).
@@ -30,6 +30,26 @@ Setiap penambahan artikel baru **WAJIB** mengeksekusi 6 langkah berikut:
 4. **Mendaftarkan Artikel Baru ke Halaman [blog.html](file:///d:/Magang%20Industri/kusenaluminiumweb/kusenaluminium/blog.html)** (masukkan sebagai kartu artikel terbaru di baris atas dengan link `../blog/[slug-artikel].html`).
 5. **Mendaftarkan URL Baru ke [sitemap.xml](file:///d:/Magang%20Industri/kusenaluminiumweb/kusenaluminium/sitemap.xml)** beserta update `<lastmod>` tanggal hari ini (`https://kusenaluminium.web.id/blog/[slug-artikel].html`).
 6. **Menjaga Internal Linking (Cross-linking)** pada blok *Baca Juga*, *Paket Rekomendasi*, dan *Artikel Terkait*.
+7. **Patuhi Aturan Penulisan Subjudul & Sumber**:
+   - Subjudul (`<h2>`, `<h3>`) dan Daftar Isi (TOC) **TIDAK PERLU diberi nomor urut** (tanpa angka `1. `, `2. `, dst).
+   - **TIDAK PERLU menambahkan bagian "Daftar Sumber"** / bibliografi / daftar pustaka di akhir artikel.
+
+---
+
+## 🚫 ATURAN PENULISAN HEADING & DAFTAR SUMBER (WAJIB DIPATUHI)
+
+> [!IMPORTANT]
+> **Dua aturan baku dalam penulisan seluruh artikel blog:**
+> 
+> 1. **Heading / Subjudul (`<h2>`, `<h3>`, dst.) TIDAK Perlu Diberi Nomor Urut:**
+>    - **JANGAN** memberi angka/penomoran seperti `1. `, `2. `, `3. ` pada tag heading (`<h2>`/`<h3>`) maupun pada teks link di **Daftar Isi Artikel (TOC)**.
+>    - Gunakan kalimat subjudul langsung secara deskriptif dan natural (contoh yang benar: `<h2 id="keunggulan-pintu-sliding">Keunggulan Pintu Sliding Aluminium</h2>`, **BUKAN** `<h2 id="...">1. Keunggulan Pintu Sliding Aluminium</h2>`).
+>    - Ini menjaga struktur hierarki heading tetap bersih, profesional, dan lebih optimal untuk SEO.
+> 
+> 2. **TIDAK Perlu Menambahkan Bagian "Daftar Sumber":**
+>    - Blog website ini ditujukan untuk calon klien/konsumen arsitektur hunian & komersial, **bukan jurnal akademik**.
+>    - **JANGAN** membuat section khusus "Daftar Sumber", daftar pustaka, atau referensi sitasi di akhir artikel (baik sebagai `<h2>`, teks `<p>`, maupun `<ul>`).
+>    - Jika terdapat rujukan teknis seperti standar SNI, ASTM, atau ISO, sebutkan secara ringkas dan mengalir langsung di dalam teks paragraf terkait.
 
 ---
 
@@ -66,10 +86,11 @@ File artikel baru harus memiliki struktur layout persis seperti artikel acuan (`
 4. **Meta Bar Penulis & Tanggal**: Avatar `assets/img/avatar-3.webp`, Nama: `Muhammad Musyaffa`, Tanggal hari ini dengan icon `bi-calendar4-week`.
 5. **Featured Image Card**: Kartu gambar utama + caption deskriptif bernuansa Kusen Aluminium Malang.
 6. **Ringkasan Inti (Summary Box)**: Card dengan border kiri maroon (`border-maroon`), icon `📌 Ringkasan Inti`, paragraf penjelasan, dan 5 poin keunggulan/fakta utama.
-7. **Daftar Isi Artikel (TOC Collapsible)**: Tombol interaktif dengan list anchor link `#slug-subjudul` mengarah ke setiap `<h2>`.
+7. **Daftar Isi Artikel (TOC Collapsible)**: Tombol interaktif dengan list anchor link `#slug-subjudul` mengarah ke setiap `<h2>` **tanpa nomor urut** (langsung judul subtopik, tanpa angka 1, 2, 3...).
 8. **Isi Artikel (Body Content)**:
    - Paragraf pembuka (`<p class="lead ...">`).
-   - Minimal 4-5 Subjudul (`<h2 id="...">`) dengan pembahasan teknis berbobot.
+   - Minimal 4-5 Subjudul (`<h2 id="...">`) dengan pembahasan teknis berbobot **tanpa nomor urut** (langsung nama subjudul).
+   - **TIDAK PERLU menambahkan bagian "Daftar Sumber"** di akhir artikel.
    - **Inline Callout "Baca Juga" 1**: Box peringatan kuning/warning berisikan tautan internal ke artikel blog lainnya.
    - **Inline Banner "Paket Rekomendasi"**: Box khusus aplikator dengan badge rekomendasi, judul paket, deskripsi layanan, dan 2 tombol rute:
      - Tombol 1: `<a href="galeri.html" class="btn btn-accent btn-package-route"><i class="bi bi-box-seam-fill me-1"></i> Lihat Detail Paket & Harga</a>`
@@ -219,12 +240,13 @@ Gunakan template HTML di bawah ini sebagai pondasi pembuatan file artikel baru:
                   <i class="bi bi-chevron-right text-warning"></i>
                 </button>
                 <div class="toc-content show mt-3 pt-3 border-top border-dashed">
+                  <!-- Catatan: Link Daftar Isi TIDAK menggunakan nomor urut (tanpa 1., 2., dst) -->
                   <ul class="list-unstyled mb-0">
-                    <li class="mb-2"><a href="#subjudul-1" class="text-decoration-none fw-semibold text-dark">1. {{TEKS_TOC_1}}</a></li>
-                    <li class="mb-2"><a href="#subjudul-2" class="text-decoration-none fw-semibold text-dark">2. {{TEKS_TOC_2}}</a></li>
-                    <li class="mb-2"><a href="#subjudul-3" class="text-decoration-none fw-semibold text-dark">3. {{TEKS_TOC_3}}</a></li>
-                    <li class="mb-2"><a href="#subjudul-4" class="text-decoration-none fw-semibold text-dark">4. {{TEKS_TOC_4}}</a></li>
-                    <li class="mb-0"><a href="#subjudul-5" class="text-decoration-none fw-semibold text-dark">5. {{TEKS_TOC_5}}</a></li>
+                    <li class="mb-2"><a href="#subjudul-1" class="text-decoration-none fw-semibold text-dark">{{TEKS_TOC_1}}</a></li>
+                    <li class="mb-2"><a href="#subjudul-2" class="text-decoration-none fw-semibold text-dark">{{TEKS_TOC_2}}</a></li>
+                    <li class="mb-2"><a href="#subjudul-3" class="text-decoration-none fw-semibold text-dark">{{TEKS_TOC_3}}</a></li>
+                    <li class="mb-2"><a href="#subjudul-4" class="text-decoration-none fw-semibold text-dark">{{TEKS_TOC_4}}</a></li>
+                    <li class="mb-0"><a href="#subjudul-5" class="text-decoration-none fw-semibold text-dark">{{TEKS_TOC_5}}</a></li>
                   </ul>
                 </div>
               </div>
@@ -238,8 +260,8 @@ Gunakan template HTML di bawah ini sebagai pondasi pembuatan file artikel baru:
 
                 <p>{{PARAGRAF_PENGANTAR}}</p>
 
-                <!-- SUBJUDUL 1 -->
-                <h2 id="subjudul-1" class="h3 fw-bold text-dark mt-4 mb-3 pb-2 border-bottom">1. {{JUDUL_H2_1}}</h2>
+                <!-- SUBJUDUL 1 (TANPA NOMOR) -->
+                <h2 id="subjudul-1" class="h3 fw-bold text-dark mt-4 mb-3 pb-2 border-bottom">{{JUDUL_H2_1}}</h2>
                 <p>{{KONTEN_PARAGRAF_1}}</p>
 
                 <!-- ILUSTRASI GAMBAR TAMBAHAN -->
@@ -255,8 +277,8 @@ Gunakan template HTML di bawah ini sebagai pondasi pembuatan file artikel baru:
                   <a href="{{LINK_BACA_JUGA_1}}" class="fw-bold text-dark text-decoration-none flex-grow-1">{{JUDUL_BACA_JUGA_1}}</a>
                 </div>
 
-                <!-- SUBJUDUL 2 -->
-                <h2 id="subjudul-2" class="h3 fw-bold text-dark mt-4 mb-3 pb-2 border-bottom">2. {{JUDUL_H2_2}}</h2>
+                <!-- SUBJUDUL 2 (TANPA NOMOR) -->
+                <h2 id="subjudul-2" class="h3 fw-bold text-dark mt-4 mb-3 pb-2 border-bottom">{{JUDUL_H2_2}}</h2>
                 <p>{{KONTEN_PARAGRAF_2}}</p>
 
                 <!-- INLINE PROMO BANNER (DUAL ACTION ROUTES - SESUAIKAN DENGAN TOPIK) -->
@@ -274,8 +296,8 @@ Gunakan template HTML di bawah ini sebagai pondasi pembuatan file artikel baru:
                   </div>
                 </div>
 
-                <!-- SUBJUDUL 3 -->
-                <h2 id="subjudul-3" class="h3 fw-bold text-dark mt-4 mb-3 pb-2 border-bottom">3. {{JUDUL_H2_3}}</h2>
+                <!-- SUBJUDUL 3 (TANPA NOMOR) -->
+                <h2 id="subjudul-3" class="h3 fw-bold text-dark mt-4 mb-3 pb-2 border-bottom">{{JUDUL_H2_3}}</h2>
                 <p>{{KONTEN_PARAGRAF_3}}</p>
 
                 <!-- INLINE "BACA JUGA" CALLOUT 2 -->
@@ -285,8 +307,8 @@ Gunakan template HTML di bawah ini sebagai pondasi pembuatan file artikel baru:
                   <a href="{{LINK_BACA_JUGA_2}}" class="fw-bold text-dark text-decoration-none flex-grow-1">{{JUDUL_BACA_JUGA_2}}</a>
                 </div>
 
-                <!-- SUBJUDUL 4 -->
-                <h2 id="subjudul-4" class="h3 fw-bold text-dark mt-4 mb-3 pb-2 border-bottom">4. {{JUDUL_H2_4}}</h2>
+                <!-- SUBJUDUL 4 (TANPA NOMOR) -->
+                <h2 id="subjudul-4" class="h3 fw-bold text-dark mt-4 mb-3 pb-2 border-bottom">{{JUDUL_H2_4}}</h2>
                 <p>{{KONTEN_PARAGRAF_4}}</p>
 
                 <!-- KUTIPAN KEPALA TEKNISI -->
@@ -295,9 +317,11 @@ Gunakan template HTML di bawah ini sebagai pondasi pembuatan file artikel baru:
                   <footer class="blockquote-footer text-end mt-2 text-muted">— Muhammad Musyaffa, Kepala Teknisi KUSEN ALUMINIUM Malang</footer>
                 </blockquote>
 
-                <!-- SUBJUDUL 5 -->
-                <h2 id="subjudul-5" class="h3 fw-bold text-dark mt-4 mb-3 pb-2 border-bottom">5. {{JUDUL_H2_5}}</h2>
+                <!-- SUBJUDUL 5 (TANPA NOMOR) -->
+                <h2 id="subjudul-5" class="h3 fw-bold text-dark mt-4 mb-3 pb-2 border-bottom">{{JUDUL_H2_5}}</h2>
                 <p>{{KONTEN_PARAGRAF_5}}</p>
+
+                <!-- CATATAN: TIDAK PERLU MENAMBAHKAN BAGIAN "DAFTAR SUMBER" DI AKHIR ARTIKEL -->
 
               </div>
 
