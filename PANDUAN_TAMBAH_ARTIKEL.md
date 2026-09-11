@@ -13,6 +13,7 @@ Cukup berikan perintah singkat di chat seperti berikut:
 Tolong buatkan artikel blog baru sesuai dengan SOP di PANDUAN_TAMBAH_ARTIKEL.md dengan:
 - Judul Artikel    : [Contoh: Jasa Pasang Kusen Aluminium Malang: Proses, Garansi, & Estimasi Biaya]
 - Kategori         : [Contoh: Jasa & Pemasangan / Material & Spesifikasi / Tips & Inspirasi]
+- Penulis          : Rachel Wijayani
 - Primary Keyword  : [Contoh: jasa pasang kusen aluminium]
 - Secondary Keyword: [Contoh: kusen aluminium Malang, garansi pemasangan kusen, presisi miter 45 derajat]
 - Search Intent    : [Contoh: Transactional / Informational / Commercial]
@@ -49,7 +50,7 @@ Setiap penambahan artikel baru **WAJIB** mengeksekusi langkah-langkah berikut se
 ## 🎯 STANDAR PENULISAN KONTEN & STRATEGI SEO (SOP TERBARU)
 
 > [!IMPORTANT]
-> **Seluruh penulisan artikel wajib mematuhi 6 pilar standar berikut:**
+> **Seluruh penulisan artikel wajib mematuhi 7 pilar standar berikut:**
 
 ### 1. Heading (`<h2>`, `<h3>`) & Daftar Isi (TOC) Bebas Nomor Urut
 - **DILARANG KERAS** memberi angka atau penomoran seperti `1. `, `2. `, `3. ` pada tag heading (`<h2>`/`<h3>`) maupun pada teks anchor link di **Daftar Isi Artikel (TOC)**.
@@ -105,6 +106,17 @@ Setiap kali ada pembaruan judul, kata kunci, atau penambahan artikel baru, pasti
 - File dokumen markdown pendukung: `[slug-artikel].md` (jika ada)
 - Sitemap: `sitemap.xml`
 
+### 7. Standar Penulis Artikel (Author Persona: Rachel Wijayani)
+Seluruh artikel blog baru wajib mencantumkan **Rachel Wijayani** sebagai penulis artikel:
+- **Nama Penulis**: `Rachel Wijayani`
+- **Jabatan**: `Penulis & Konten Spesialis` / `Penulis Teknis dan Spesialis Konten` di KUSEN ALUMINIUM Malang.
+- **Foto Profil / Avatar**: `assets/img/avatar-2.webp` (atau `../assets/img/avatar-2.webp` jika di dalam folder `blog/`).
+- **Tag Head `<meta>`**: `<meta name="author" content="Rachel Wijayani">`
+- **Schema.org JSON-LD**: Properti `author` bertipe `Person` dengan nama `"Rachel Wijayani"`, jobTitle `"Penulis & Konten Spesialis"`.
+- **Deskripsi Profil (Sidebar Card)**:
+  > *"Rachel Wijayani adalah Penulis Teknis dan Spesialis Konten di KUSEN ALUMINIUM Malang yang berfokus pada edukasi spesifikasi material aluminium, panduan arsitektur modern, dan estimasi biaya konstruksi."*
+- *(Catatan: Kutipan narasumber ahli lapangan pada blockquote artikel tetap mempertahankan figur teknisi riil, yaitu "Muhammad Musyaffa, Kepala Teknisi KUSEN ALUMINIUM Malang").*
+
 ---
 
 ## 📅 ATURAN PENANGGALAN OTOMATIS (DATE SYSTEM)
@@ -125,7 +137,7 @@ File artikel baru harus memiliki struktur layout persis seperti artikel acuan (`
 - `<title>`: `[Judul Artikel Menarik & Berbobot] | KUSEN ALUMINIUM Malang`
 - `<meta name="description">`: Ringkasan 140–160 karakter memuat keyword utama dan lokasi Malang.
 - `<meta name="keywords">`: 5–8 keyword relevan.
-- `<meta name="author" content="Muhammad Musyaffa">`
+- `<meta name="author" content="Rachel Wijayani">`
 - `<link rel="canonical" href="https://kusenaluminium.web.id/blog/[slug-artikel].html">`
 - Tag Favicon WebP, Open Graph (og:type=article, og:title, og:description, og:url, og:image, og:published_time), Geo tags Malang.
 - Load Google Fonts (Plus Jakarta Sans), Bootstrap 5.3 CSS, Bootstrap Icons 1.11.3, dan `../css/style.css?v=2.1`.
@@ -137,7 +149,7 @@ File artikel baru harus memiliki struktur layout persis seperti artikel acuan (`
 1. **Section Clearance**: `<section class="blog-detail-section" style="padding-top: 130px !important;">`
 2. **Category Badge**: Badge kapsul berikon (misal: `<i class="bi bi-tag-fill text-warning me-1"></i> Jendela Aluminium`).
 3. **Judul Utama (`<h1>`)**: `display-6 fw-bold text-dark mb-3`.
-4. **Meta Bar Penulis & Tanggal**: Avatar `assets/img/avatar-3.webp`, Nama: `Muhammad Musyaffa`, Tanggal hari ini dengan icon `bi-calendar4-week`.
+4. **Meta Bar Penulis & Tanggal**: Avatar `assets/img/avatar-2.webp`, Nama: `Rachel Wijayani`, Tanggal hari ini dengan icon `bi-calendar4-week`.
 5. **Featured Image Card**: Kartu gambar utama + caption deskriptif bernuansa Kusen Aluminium Malang.
 6. **Ringkasan Inti (Summary Box)**: Card dengan border kiri maroon (`border-maroon`), icon `📌 Ringkasan Inti`, paragraf penjelasan, dan 5 poin keunggulan/fakta utama.
 7. **Daftar Isi Artikel (TOC Collapsible)**: Tombol interaktif dengan list anchor link `#slug-subjudul` mengarah ke setiap `<h2>` **tanpa nomor urut** (langsung judul subtopik, tanpa angka 1, 2, 3...).
@@ -157,7 +169,7 @@ File artikel baru harus memiliki struktur layout persis seperti artikel acuan (`
 11. **Tag Pills Footer**: Kumpulan 5+ badge tag relevan mengarah ke `blog.html`.
 
 ### 4. Sidebar Kolom Kanan (`col-lg-4`)
-- **Kartu Profil Penulis**: Foto Muhammad Musyaffa, link medsos (IG, LinkedIn, FB), dan deskripsi keahlian teknis (10+ tahun pengalaman).
+- **Kartu Profil Penulis**: Foto Rachel Wijayani (`assets/img/avatar-2.webp`), link medsos (IG, LinkedIn, FB), dan deskripsi profil (*Rachel Wijayani adalah Penulis Teknis dan Spesialis Konten di KUSEN ALUMINIUM Malang...*).
 - **Widget Artikel Terkait (Sidebar Related)**: 3 artikel relevan dengan thumbnail gambar WebP, judul, dan tanggal publikasi.
 
 ### 5. Section "Artikel Lainnya yang Berhubungan" (Bawah Artikel)
@@ -183,7 +195,7 @@ Gunakan template HTML di bawah ini sebagai pondasi pembuatan file artikel baru:
   <title>{{JUDUL_SEO}} | KUSEN ALUMINIUM Malang</title>
   <meta name="description" content="{{META_DESCRIPTION}}">
   <meta name="keywords" content="{{META_KEYWORDS}}">
-  <meta name="author" content="Muhammad Musyaffa">
+  <meta name="author" content="Rachel Wijayani">
   <link rel="canonical" href="https://kusenaluminium.web.id/{{SLUG_FILE}}.html">
 
   <!-- Favicon for Browser Tabs & Google Search Indexing (WebP) -->
@@ -221,8 +233,8 @@ Gunakan template HTML di bawah ini sebagai pondasi pembuatan file artikel baru:
         "image": "https://kusenaluminium.web.id/{{PATH_GAMBAR_UTAMA}}",
         "author": {
           "@type": "Person",
-          "name": "Muhammad Musyaffa",
-          "jobTitle": "Kepala Teknisi Aplikator",
+          "name": "Rachel Wijayani",
+          "jobTitle": "Penulis & Konten Spesialis",
           "worksFor": {
             "@type": "HomeAndConstructionBusiness",
             "name": "KUSEN ALUMINIUM Malang"
@@ -325,8 +337,8 @@ Gunakan template HTML di bawah ini sebagai pondasi pembuatan file artikel baru:
               <!-- Author & Article Meta Bar -->
               <div class="article-top-meta d-flex flex-wrap align-items-center gap-3 pb-3 mb-4 border-bottom fs-6 text-muted">
                 <div class="meta-author d-inline-flex align-items-center gap-2 fw-bold text-dark me-3">
-                  <img src="assets/img/avatar-3.webp" class="rounded-circle border border-2 border-warning shadow-sm" style="width: 44px; height: 44px; object-fit: cover;" alt="Muhammad Musyaffa">
-                  <span>Muhammad Musyaffa</span>
+                  <img src="assets/img/avatar-2.webp" class="rounded-circle border border-2 border-warning shadow-sm" style="width: 44px; height: 44px; object-fit: cover;" alt="Rachel Wijayani">
+                  <span>Rachel Wijayani</span>
                 </div>
                 <span class="d-inline-flex align-items-center"><i class="bi bi-calendar4-week text-warning me-1"></i> {{TANGGAL_LENGKAP_HARI_INI}}</span>
               </div>
@@ -507,15 +519,15 @@ Gunakan template HTML di bawah ini sebagai pondasi pembuatan file artikel baru:
             <aside class="article-sidebar-sticky">
               <!-- Author Card -->
               <div class="sidebar-author-card card border-0 shadow-sm rounded-4 p-4 text-center mb-4">
-                <img src="assets/img/avatar-3.webp" class="rounded-circle border border-3 border-warning shadow-sm mx-auto mb-3" style="width: 96px; height: 96px; object-fit: cover;" alt="Muhammad Musyaffa">
-                <h4 class="h5 fw-bold text-dark mb-2">Muhammad Musyaffa</h4>
+                <img src="assets/img/avatar-2.webp" class="rounded-circle border border-3 border-warning shadow-sm mx-auto mb-3" style="width: 96px; height: 96px; object-fit: cover;" alt="Rachel Wijayani">
+                <h4 class="h5 fw-bold text-dark mb-2">Rachel Wijayani</h4>
                 <div class="sidebar-social d-flex justify-content-center gap-3 mb-3 fs-5">
-                  <a href="https://instagram.com/mmusy4ffa" target="_blank" rel="noopener noreferrer" class="text-dark text-decoration-none" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-                  <a href="https://www.linkedin.com/in/mmusyaffa/" target="_blank" rel="noopener noreferrer" class="text-dark text-decoration-none" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="text-dark text-decoration-none" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="text-dark text-decoration-none" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
                   <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="text-dark text-decoration-none" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
                 </div>
                 <p class="desc small text-muted mb-0">
-                  Muhammad Musyaffa adalah Kepala Teknisi Aplikator di KUSEN ALUMINIUM Malang berpengalaman 10+ tahun dalam perancangan bukaan aluminium presisi, sistem kedap air, dan pengerjaan arsitektur modern.
+                  Rachel Wijayani adalah Penulis Teknis dan Spesialis Konten di KUSEN ALUMINIUM Malang yang berfokus pada edukasi spesifikasi material aluminium, panduan arsitektur modern, dan estimasi biaya konstruksi.
                 </p>
               </div>
 

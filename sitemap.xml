@@ -39,7 +39,7 @@
   <!-- Blog Artikel Catalog -->
   <url>
     <loc>https://kusenaluminium.web.id/blog.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -312,6 +312,22 @@
   <url>
     <loc>https://kusenaluminium.web.id/blog/proses-fabrikasi-kusen-aluminium.html</loc>
     <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Harga Kusen Aluminium per Meter Malang 2026 (11 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/harga-kusen-aluminium.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Kusen Aluminium Anti Karat untuk Iklim Malang (11 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/kusen-aluminium-anti-karat.html</loc>
+    <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
