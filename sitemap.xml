@@ -39,7 +39,7 @@
   <!-- Blog Artikel Catalog -->
   <url>
     <loc>https://kusenaluminium.web.id/blog.html</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -328,6 +328,38 @@
   <url>
     <loc>https://kusenaluminium.web.id/blog/kusen-aluminium-anti-karat.html</loc>
     <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Cara Menghitung Kusen Aluminium Rumah Minimalis (12 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/cara-menghitung-kusen-aluminium.html</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Cara Pakai Simulasi Harga Kusen Aluminium Online (12 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/simulasi-harga-kusen-aluminium.html</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Pengiriman Kusen Surabaya, Aman Tanpa Penyok (14 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/pengiriman-kusen-surabaya.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Jasa Kusen Aluminium Surabaya, Presisi dan Bergaransi (14 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/jasa-kusen-aluminium-surabaya.html</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
