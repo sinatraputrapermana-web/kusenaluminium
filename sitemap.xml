@@ -39,7 +39,7 @@
   <!-- Blog Artikel Catalog -->
   <url>
     <loc>https://kusenaluminium.web.id/blog.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -360,6 +360,38 @@
   <url>
     <loc>https://kusenaluminium.web.id/blog/jasa-kusen-aluminium-surabaya.html</loc>
     <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Fabrikasi Kusen Presisi, Anti Renggang dan Bocor (15 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/fabrikasi-kusen-presisi.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Teknisi Mitra Surabaya, Terverifikasi dan Bergaransi (15 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/teknisi-mitra-surabaya.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Pengiriman Kusen Medan, Presisi dari Malang (16 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/pengiriman-kusen-medan.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Kusen Aluminium Medan, Prefabrikasi Bergaransi (16 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/kusen-aluminium-medan.html</loc>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
