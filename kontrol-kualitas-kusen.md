@@ -62,9 +62,3 @@ Pallet, alas datar dari kayu untuk menopang tumpukan barang, memudahkan proses b
 Untuk penguatan kemasan, kami mengunci setiap sudut dan siku kusen menggunakan corner protector, mengisi ruang kosong di dalam box dengan void filler supaya barang tidak mengocak saat guncangan kapal, lalu menyegel lakban luar dengan pola H dan menambahkan strapping.
 
 Label penanganan kargo juga wajib ditempel jelas, seperti "FRAGILE / MUDAH PECAH", "THIS SIDE UP / ARAH ATAS", dan "JANGAN DITEKAN", supaya tim kurir tahu cara menangani barang dengan benar saat proses sortir.
-
-Kalau Anda penasaran soal detail moda pengiriman dan estimasi tarifnya dari Malang ke Medan, kami sudah bahas lengkap di artikel terpisah soal proses pengiriman kusen presisi antar pulau ini.
-
-Kontrol kualitas kusen bukan formalitas administratif, tapi benteng terakhir sebelum barang meninggalkan workshop menuju Medan. Dari pengecekan AQL, moisture content, sampai mitigasi container rain, semua tahap ini kami lalui supaya produk yang Anda terima benar-benar sesuai standar.
-
-Kalau Anda ingin memesan kusen aluminium dengan standar mutu yang sudah teruji seperti ini, silakan konsultasi langsung dengan tim kami. Cek dulu hasil pengerjaan kami di halaman [Galeri](https://kusenaluminium.web.id/galeri), atau hitung estimasi biaya proyek Anda lewat [Estimator Biaya](https://kusenaluminium.web.id/#estimator).
