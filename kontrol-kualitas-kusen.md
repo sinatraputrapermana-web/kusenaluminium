@@ -74,6 +74,8 @@ Profil panjang 6 sampai 12 meter memakai penyangga bentuk "A" atau bogie, tali n
 
 Tim ahli teknis Logistik Express Nusantara menegaskan bahwa kontrol kualitas tidak berhenti di meja fabrikasi. Bagi mereka, pengikat nilon, corner guard foam, dan pemuatan horizontal adalah syarat mutlak agar presisi hasil workshop tetap terjaga sampai lokasi proyek.
 
+Label penanganan kargo juga wajib ditempel jelas, seperti "FRAGILE / MUDAH PECAH", "THIS SIDE UP / ARAH ATAS", dan "JANGAN DITEKAN", supaya tim kurir tahu cara menangani barang dengan benar saat proses sortir.
+
 Semua tahap ini menjadi bagian dari [kusen prefabrikasi](https://kusenaluminium.web.id/kusen-aluminium-batu) yang kami kerjakan: potong presisi di workshop, cek, kirim, lalu pasang. Kontrol kualitas kusen yang baik dimulai dari profil, lanjut ke toleransi ukuran, hardware, dan packing. Selisih 2 sampai 3 mm bisa mengubah pintu mulus menjadi pintu macet.
 
 Lihat hasil akhir dari proses ini di [galeri proyek](https://kusenaluminium.web.id/galeri), hitung kebutuhan lewat [estimator biaya](https://kusenaluminium.web.id/#estimator), lalu pesan lewat WhatsApp. Melayani Kota Batu, kusen kami dicek sebelum dikirim.
@@ -87,3 +89,4 @@ Posisi miring bisa membengkokkan (bending) profil selama perjalanan, sehingga ma
 
 Apakah kusen yang dikirim ke Kota Batu dicek dulu?
 Ya. Melayani Kota Batu, setiap kusen melewati pengecekan profil, dimensi, hardware, dan packing sebelum berangkat dari workshop.
+

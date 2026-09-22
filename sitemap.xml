@@ -380,34 +380,50 @@
     <priority>0.85</priority>
   </url>
 
-  <!-- Artikel: Pengiriman Kusen Medan, Presisi dari Malang (16 Sep 2026) -->
+  <!-- Artikel: Pengiriman Kusen Pasuruan, Aman & Presisi dari Malang (16 Sep 2026) -->
   <url>
-    <loc>https://kusenaluminium.web.id/blog/pengiriman-kusen-medan.html</loc>
-    <lastmod>2026-09-16</lastmod>
+    <loc>https://kusenaluminium.web.id/blog/pengiriman-kusen-pasuruan.html</loc>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
 
-  <!-- Artikel: Kusen Aluminium Medan, Prefabrikasi Bergaransi (16 Sep 2026) -->
+  <!-- Artikel: Kusen Aluminium Pasuruan, Prefabrikasi Bergaransi (16 Sep 2026) -->
   <url>
-    <loc>https://kusenaluminium.web.id/blog/kusen-aluminium-medan.html</loc>
-    <lastmod>2026-09-16</lastmod>
+    <loc>https://kusenaluminium.web.id/blog/kusen-aluminium-pasuruan.html</loc>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
 
-  <!-- Artikel: Biaya Kirim Kusen Medan, Estimasi Lengkap 2026 (17 Sep 2026) -->
+  <!-- Artikel: Biaya Kirim Kusen Pasuruan, Estimasi Lengkap 2026 (17 Sep 2026) -->
   <url>
-    <loc>https://kusenaluminium.web.id/blog/biaya-kirim-kusen-medan.html</loc>
-    <lastmod>2026-09-17</lastmod>
+    <loc>https://kusenaluminium.web.id/blog/biaya-kirim-kusen-pasuruan.html</loc>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
 
-  <!-- Artikel: Kontrol Kualitas Kusen Sebelum Dikirim ke Medan (18 Sep 2026) -->
+  <!-- Artikel: Kontrol Kualitas Kusen Sebelum Dikirim ke Pasuruan (18 Sep 2026) -->
   <url>
     <loc>https://kusenaluminium.web.id/blog/kontrol-kualitas-kusen.html</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Kusen Aluminium Kota Batu: Presisi 0,5 mm, Bergaransi (19 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/kusen-aluminium-batu.html</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Pengiriman Kusen Batu, Cara Aman dari Workshop (19 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/pengiriman-kusen-batu.html</loc>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
