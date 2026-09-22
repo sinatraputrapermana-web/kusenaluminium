@@ -39,7 +39,7 @@
   <!-- Blog Artikel Catalog -->
   <url>
     <loc>https://kusenaluminium.web.id/blog.html</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-09-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -408,6 +408,38 @@
   <url>
     <loc>https://kusenaluminium.web.id/blog/kontrol-kualitas-kusen.html</loc>
     <lastmod>2026-09-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Biaya Pasang Kusen Batu, Rincian per Meter Lari (21 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/biaya-pasang-kusen-batu.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Kontrol Kualitas Kusen, Cek Sebelum Dikirim ke Batu (22 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/kontrol-kualitas-kusen-batu.html</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Kusen Aluminium Alexindo vs YKK AP di Batu (21 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/kusen-aluminium-alexindo-vs-ykk-ap-batu.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Estimasi Biaya Pasang Kusen Aluminium Ruko di Klojen 2026 (22 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/estimasi-biaya-pasang-kusen-aluminium-ruko-klojen.html</loc>
+    <lastmod>2026-09-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
