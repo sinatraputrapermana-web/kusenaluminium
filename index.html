@@ -35,21 +35,44 @@
   <meta property="og:url" content="https://kusenaluminium.web.id/">
   <meta property="og:image" content="https://kusenaluminium.web.id/assets/img/hero-kusen.webp">
 
-  <!-- Google Fonts: Plus Jakarta Sans -->
+  <!-- Preconnect & DNS-Prefetch for CDNs -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
-    rel="stylesheet">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 
-  <!-- Bootstrap 5.3 CDN & Icons -->
+  <!-- Preload Critical LCP Hero Image for Mobile & Desktop -->
+  <link rel="preload" as="image" href="assets/img/hero-3d-breakout-sm.webp" type="image/webp" media="(max-width: 575.98px)" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/img/hero-3d-breakout.webp" type="image/webp" media="(min-width: 576px)" fetchpriority="high">
+
+  <!-- Google Fonts: Plus Jakarta Sans (Non-Render-Blocking) -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+  </noscript>
+
+  <!-- Core Bootstrap 5.3 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
 
-  <!-- Swiper 11 Carousel CSS CDN -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <!-- Bootstrap Icons (Non-Render-Blocking) -->
+  <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </noscript>
+
+  <!-- Swiper 11 Carousel CSS (Non-Render-Blocking for Below-Fold Carousel) -->
+  <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  </noscript>
 
   <!-- Custom Design System CSS -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=2.2">
 
   <!-- Schema.org JSON-LD Structured Data -->
   <script type="application/ld+json">
@@ -161,7 +184,10 @@
             <!-- Mobile Only Image Showcase (Placed directly under H1, above Subtitle) -->
             <div class="d-lg-none my-4 text-center">
               <div class="hero-image-wrapper hero-split-img-wrapper">
-                <img src="assets/img/hero-3d-breakout.webp" alt="Pemasangan Kusen Aluminium &amp; Pintu Sliding Malang" class="img-fluid hero-split-img">
+                <picture>
+                  <source media="(max-width: 575.98px)" srcset="assets/img/hero-3d-breakout-sm.webp" type="image/webp">
+                  <img src="assets/img/hero-3d-breakout.webp" alt="Pemasangan Kusen Aluminium &amp; Pintu Sliding Malang" class="img-fluid hero-split-img" width="600" height="400" fetchpriority="high" decoding="async">
+                </picture>
                 <div class="hero-badge-overlay">
                   <i class="bi bi-check-circle-fill text-success me-1"></i> Standar Sambungan Miter 45°
                 </div>
@@ -189,7 +215,7 @@
           <!-- Right Column: Visual Image Showcase for Desktop (>= 992px) -->
           <div class="col-lg-6 reveal-right ps-lg-4 text-center d-none d-lg-block">
             <div class="hero-image-wrapper hero-split-img-wrapper">
-              <img src="assets/img/hero-3d-breakout.webp" alt="Pemasangan Kusen Aluminium &amp; Pintu Sliding Malang" class="img-fluid hero-split-img">
+              <img src="assets/img/hero-3d-breakout.webp" alt="Pemasangan Kusen Aluminium &amp; Pintu Sliding Malang" class="img-fluid hero-split-img" width="600" height="400" fetchpriority="high" decoding="async">
               
               <div class="hero-badge-overlay">
                 <i class="bi bi-check-circle-fill text-success me-1"></i> Standar Sambungan Miter 45°
@@ -267,7 +293,7 @@
           <div class="col-lg-5 reveal-left">
             <div class="about-img-wrap">
               <img src="assets/img/kusen-ykk.webp" alt="Workshop KUSEN ALUMINIUM Malang" class="img-fluid w-100"
-                width="500" height="450">
+                width="500" height="450" loading="lazy" decoding="async">
               <div class="about-badge-float">
                 <div class="abyear">10+</div>
                 <div class="ablabel">Tahun<br>Pengalaman</div>
@@ -344,7 +370,7 @@
           <div class="col-md-6 col-lg-4 reveal-on-scroll delay-1">
             <article class="service-card">
               <a href="galeri.html" class="service-card-img">
-                <img src="assets/img/kusen-ykk.webp" alt="Profil Kusen Aluminium YKK AP & Alexindo" loading="lazy">
+                <img src="assets/img/kusen-ykk.webp" alt="Profil Kusen Aluminium YKK AP & Alexindo" width="400" height="260" loading="lazy" decoding="async">
                 <div class="service-icon-badge"><i class="bi bi-layers-fill"></i></div>
               </a>
               <div class="service-card-body">
@@ -360,7 +386,7 @@
           <div class="col-md-6 col-lg-4 reveal-on-scroll delay-2">
             <article class="service-card">
               <a href="galeri.html" class="service-card-img">
-                <img src="assets/img/pintu-lipat.webp" alt="Pintu Lipat Folding Door Aluminium" loading="lazy">
+                <img src="assets/img/pintu-lipat.webp" alt="Pintu Lipat Folding Door Aluminium" width="400" height="260" loading="lazy" decoding="async">
                 <div class="service-icon-badge"><i class="bi bi-door-open-fill"></i></div>
               </a>
               <div class="service-card-body">
@@ -376,7 +402,7 @@
           <div class="col-md-6 col-lg-4 reveal-on-scroll delay-3">
             <article class="service-card">
               <a href="galeri.html" class="service-card-img">
-                <img src="assets/img/jendela-casement.webp" alt="Jendela Casement Rubber EPDM" loading="lazy">
+                <img src="assets/img/jendela-casement.webp" alt="Jendela Casement Rubber EPDM" width="400" height="260" loading="lazy" decoding="async">
                 <div class="service-icon-badge"><i class="bi bi-window"></i></div>
               </a>
               <div class="service-card-body">
@@ -393,7 +419,7 @@
           <div class="col-md-6 col-lg-4 reveal-on-scroll delay-4">
             <article class="service-card">
               <a href="galeri.html" class="service-card-img">
-                <img src="assets/img/pintu-sliding.webp" alt="Pintu Geser Sliding Door Minimalis" loading="lazy">
+                <img src="assets/img/pintu-sliding.webp" alt="Pintu Geser Sliding Door Minimalis" width="400" height="260" loading="lazy" decoding="async">
                 <div class="service-icon-badge"><i class="bi bi-arrow-left-right"></i></div>
               </a>
               <div class="service-card-body">
@@ -409,7 +435,7 @@
           <div class="col-md-6 col-lg-4 reveal-on-scroll delay-5">
             <article class="service-card">
               <a href="galeri.html" class="service-card-img">
-                <img src="assets/img/partisi-kaca.webp" alt="Partisi Kaca Tempered Kantor Malang" loading="lazy">
+                <img src="assets/img/partisi-kaca.webp" alt="Partisi Kaca Tempered Kantor Malang" width="400" height="260" loading="lazy" decoding="async">
                 <div class="service-icon-badge"><i class="bi bi-building"></i></div>
               </a>
               <div class="service-card-body">
@@ -425,7 +451,7 @@
           <div class="col-md-6 col-lg-4 reveal-on-scroll delay-6">
             <article class="service-card">
               <a href="galeri.html" class="service-card-img">
-                <img src="assets/img/jendela-sliding.webp" alt="Jendela Sliding 2 Daun Malang" loading="lazy">
+                <img src="assets/img/jendela-sliding.webp" alt="Jendela Sliding 2 Daun Malang" width="400" height="260" loading="lazy" decoding="async">
                 <div class="service-icon-badge"><i class="bi bi-grid"></i></div>
               </a>
               <div class="service-card-body">
@@ -760,7 +786,7 @@
                   membuat kami tenang selama proses pembangunan berlangsung."
                 </p>
                 <div class="testimonial-author-row">
-                  <img src="assets/img/avatar-1.webp" alt="Rizky Hermawan" class="testimonial-author-avatar rounded-circle" style="width: 44px; height: 44px; object-fit: cover; flex-shrink: 0;">
+                  <img src="assets/img/avatar-1.webp" alt="Rizky Hermawan" class="testimonial-author-avatar rounded-circle" width="44" height="44" loading="lazy" decoding="async" style="width: 44px; height: 44px; object-fit: cover; flex-shrink: 0;">
                   <div>
                     <div class="testimonial-author-name">Rizky Hermawan</div>
                     <div class="testimonial-author-role">Manager, PT Maju Bersama</div>
@@ -787,7 +813,7 @@
                   harga kompetitif. Sudah 3 tahun dan kualitasnya tetap terjaga."
                 </p>
                 <div class="testimonial-author-row">
-                  <img src="assets/img/avatar-2.webp" alt="Maya Sari" class="testimonial-author-avatar rounded-circle" style="width: 44px; height: 44px; object-fit: cover; flex-shrink: 0;">
+                  <img src="assets/img/avatar-2.webp" alt="Maya Sari" class="testimonial-author-avatar rounded-circle" width="44" height="44" loading="lazy" decoding="async" style="width: 44px; height: 44px; object-fit: cover; flex-shrink: 0;">
                   <div>
                     <div class="testimonial-author-name">Maya Sari</div>
                     <div class="testimonial-author-role">Pemilik Rumah, Batu</div>
@@ -814,7 +840,7 @@
                   kebutuhan dengan baik, dan hasil akhir melebihi ekspektasi kami."
                 </p>
                 <div class="testimonial-author-row">
-                  <img src="assets/img/avatar-3.webp" alt="Andi Pratama" class="testimonial-author-avatar rounded-circle" style="width: 44px; height: 44px; object-fit: cover; flex-shrink: 0;">
+                  <img src="assets/img/avatar-3.webp" alt="Andi Pratama" class="testimonial-author-avatar rounded-circle" width="44" height="44" loading="lazy" decoding="async" style="width: 44px; height: 44px; object-fit: cover; flex-shrink: 0;">
                   <div>
                     <div class="testimonial-author-name">Andi Pratama</div>
                     <div class="testimonial-author-role">Pengusaha, Malang</div>
@@ -841,7 +867,7 @@
                   benar-benar kedap dari hawa dingin luar."
                 </p>
                 <div class="testimonial-author-row">
-                  <img src="assets/img/avatar-1.webp" alt="Muhammad Musyaffa" class="testimonial-author-avatar rounded-circle" style="width: 44px; height: 44px; object-fit: cover; flex-shrink: 0;">
+                  <img src="assets/img/avatar-1.webp" alt="Muhammad Musyaffa" class="testimonial-author-avatar rounded-circle" width="44" height="44" loading="lazy" decoding="async" style="width: 44px; height: 44px; object-fit: cover; flex-shrink: 0;">
                   <div>
                     <div class="testimonial-author-name">Muhammad Musyaffa</div>
                     <div class="testimonial-author-role">Pemilik Villa, Kota Batu</div>
@@ -868,7 +894,7 @@
                   deras dan bising berkurang drastis."
                 </p>
                 <div class="testimonial-author-row">
-                  <img src="assets/img/avatar-2.webp" alt="dr. Sylvia Anggraeni" class="testimonial-author-avatar rounded-circle" style="width: 44px; height: 44px; object-fit: cover; flex-shrink: 0;">
+                  <img src="assets/img/avatar-2.webp" alt="dr. Sylvia Anggraeni" class="testimonial-author-avatar rounded-circle" width="44" height="44" loading="lazy" decoding="async" style="width: 44px; height: 44px; object-fit: cover; flex-shrink: 0;">
                   <div>
                     <div class="testimonial-author-name">dr. Sylvia Anggraeni</div>
                     <div class="testimonial-author-role">Lowokwaru, Kota Malang</div>
@@ -913,7 +939,7 @@
 
           <div class="col-md-6 col-lg-4 product-item-col reveal-on-scroll delay-1" data-category="pintu">
             <div class="portfolio-item">
-              <img src="assets/img/hero-kusen.webp" alt="Pintu Sliding Glass Minimalis Malang">
+              <img src="assets/img/hero-kusen.webp" alt="Pintu Sliding Glass Minimalis Malang" width="400" height="280" loading="lazy" decoding="async">
               <div class="portfolio-overlay">
                 <div>
                   <p class="portfolio-overlay-title">Pintu Sliding Glass Minimalis</p>
@@ -925,7 +951,7 @@
 
           <div class="col-md-6 col-lg-4 product-item-col reveal-on-scroll delay-2" data-category="pintu">
             <div class="portfolio-item">
-              <img src="assets/img/pintu-lipat.webp" alt="Pintu Lipat Folding Door Malang">
+              <img src="assets/img/pintu-lipat.webp" alt="Pintu Lipat Folding Door Malang" width="400" height="280" loading="lazy" decoding="async">
               <div class="portfolio-overlay">
                 <div>
                   <p class="portfolio-overlay-title">Pintu Lipat Folding Door Villa</p>
@@ -937,7 +963,7 @@
 
           <div class="col-md-6 col-lg-4 product-item-col reveal-on-scroll delay-3" data-category="partisi">
             <div class="portfolio-item">
-              <img src="assets/img/partisi-kaca.webp" alt="Partisi Kaca Tempered Kantor Malang">
+              <img src="assets/img/partisi-kaca.webp" alt="Partisi Kaca Tempered Kantor Malang" width="400" height="280" loading="lazy" decoding="async">
               <div class="portfolio-overlay">
                 <div>
                   <p class="portfolio-overlay-title">Partisi Kaca Ruang Rapat Kantor</p>
@@ -949,7 +975,7 @@
 
           <div class="col-md-6 col-lg-4 product-item-col reveal-on-scroll delay-4" data-category="jendela">
             <div class="portfolio-item">
-              <img src="assets/img/jendela-casement.webp" alt="Jendela Casement YKK AP Malang">
+              <img src="assets/img/jendela-casement.webp" alt="Jendela Casement YKK AP Malang" width="400" height="280" loading="lazy" decoding="async">
               <div class="portfolio-overlay">
                 <div>
                   <p class="portfolio-overlay-title">Jendela Casement YKK AP 4"</p>
@@ -961,7 +987,7 @@
 
           <div class="col-md-6 col-lg-4 product-item-col reveal-on-scroll delay-5" data-category="kusen">
             <div class="portfolio-item">
-              <img src="assets/img/kusen-ykk.webp" alt="Kusen Aluminium White Coating Malang">
+              <img src="assets/img/kusen-ykk.webp" alt="Kusen Aluminium White Coating Malang" width="400" height="280" loading="lazy" decoding="async">
               <div class="portfolio-overlay">
                 <div>
                   <p class="portfolio-overlay-title">Kusen Aluminium White Coating</p>
@@ -973,7 +999,7 @@
 
           <div class="col-md-6 col-lg-4 product-item-col reveal-on-scroll delay-6" data-category="jendela">
             <div class="portfolio-item">
-              <img src="assets/img/jendela-sliding.webp" alt="Jendela Sliding 2 Daun Malang">
+              <img src="assets/img/jendela-sliding.webp" alt="Jendela Sliding 2 Daun Malang" width="400" height="280" loading="lazy" decoding="async">
               <div class="portfolio-overlay">
                 <div>
                   <p class="portfolio-overlay-title">Jendela Sliding 2 Daun Minimalis</p>
@@ -1193,12 +1219,12 @@
     <i class="bi bi-whatsapp"></i>
   </a>
 
-  <!-- Bootstrap 5.3 JS Bundle CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Swiper 11 JS Carousel CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <!-- Custom JS -->
-  <script src="js/main.js"></script>
+  <!-- Bootstrap 5.3 JS Bundle CDN (Deferred) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+  <!-- Swiper 11 JS Carousel CDN (Deferred) -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+  <!-- Custom JS (Deferred) -->
+  <script src="js/main.js?v=2.2" defer></script>
 </body>
 
 </html>

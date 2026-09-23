@@ -58,7 +58,7 @@ function initBackToTop() {
     } else {
       backBtn.classList.remove('show');
     }
-  });
+  }, { passive: true });
 
   backBtn.addEventListener('click', () => {
     window.scrollTo({
@@ -275,7 +275,7 @@ function initNavbarScroll() {
     }
   };
 
-  window.addEventListener('scroll', handleScroll);
+  window.addEventListener('scroll', handleScroll, { passive: true });
   handleScroll(); // Check initial state
 }
 

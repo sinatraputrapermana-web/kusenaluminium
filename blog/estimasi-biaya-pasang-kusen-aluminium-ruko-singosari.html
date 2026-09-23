@@ -24,11 +24,34 @@
   <meta property="article:published_time" content="2026-09-08T08:00:00+07:00">
   <meta name="geo.region" content="ID-JI">
   <meta name="geo.placename" content="Singosari, Kabupaten Malang, Jawa Timur">
+  <!-- Preconnect & DNS-Prefetch for CDNs -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+  <!-- Preload Critical Featured Image -->
+  <link rel="preload" as="image" href="../assets/img/estimasi-biaya-kusen-aluminium-ruko-singosari.jpg" type="image/webp" fetchpriority="high">
+
+  <!-- Google Fonts: Plus Jakarta Sans (Non-Render-Blocking) -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&amp;display=swap" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&amp;display=swap">
+  </noscript>
+
+  <!-- Core Bootstrap 5.3 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons (Non-Render-Blocking) -->
+  <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </noscript>
+
+  <!-- Custom Design System CSS -->
   <link rel="stylesheet" href="../css/style.css?v=2.2">
 
   <!-- Schema.org Article & FAQPage JSON-LD -->
@@ -147,7 +170,7 @@
               <!-- Author & Article Meta Bar -->
               <div class="article-top-meta d-flex flex-wrap align-items-center gap-3 pb-3 mb-4 border-bottom fs-6 text-muted">
                 <div class="meta-author d-inline-flex align-items-center gap-2 fw-bold text-dark me-3">
-                  <img src="../assets/img/avatar-3.webp" class="rounded-circle border border-2 border-warning shadow-sm" style="width: 44px; height: 44px; object-fit: cover;" alt="Muhammad Musyaffa">
+                  <img src="../assets/img/avatar-3.webp" class="rounded-circle border border-2 border-warning shadow-sm" width="44" height="44" loading="lazy" decoding="async" style="width: 44px; height: 44px; object-fit: cover;" alt="Muhammad Musyaffa">
                   <span>Muhammad Musyaffa</span>
                 </div>
                 <span class="d-inline-flex align-items-center"><i class="bi bi-calendar4-week text-warning me-1"></i> 8 September 2026</span>
@@ -155,7 +178,7 @@
 
               <!-- Featured Image Card -->
               <div class="featured-image-wrap card border-0 shadow-sm rounded-4 overflow-hidden mb-4">
-                <img src="../assets/img/estimasi-biaya-kusen-aluminium-ruko-singosari.jpg" class="card-img-top img-fluid" alt="Simulasi biaya pasang kusen aluminium ruko dua lantai di Singosari" loading="lazy">
+                <img src="../assets/img/estimasi-biaya-kusen-aluminium-ruko-singosari.jpg" class="card-img-top img-fluid" alt="Simulasi biaya pasang kusen aluminium ruko dua lantai di Singosari" width="800" height="450" fetchpriority="high" decoding="async">
                 <div class="featured-caption card-footer bg-light-subtle text-center fst-italic small text-muted py-2 border-top-0">
                   Perhitungan estimasi biaya pemasangan kusen aluminium etalase ruko komersial di Singosari — KUSEN ALUMINIUM Malang
                 </div>
@@ -207,7 +230,7 @@
 
                 <!-- ILUSTRASI GAMBAR TAMBAHAN -->
                 <figure class="body-figure card border-0 shadow-sm rounded-4 overflow-hidden my-4">
-                  <img src="../assets/img/tukang-pasang-kusen-aluminium-singosari.jpg" class="card-img-top img-fluid" alt="Proses pemasangan kusen aluminium pada ruko di Singosari" loading="lazy">
+                  <img src="../assets/img/tukang-pasang-kusen-aluminium-singosari.jpg" class="card-img-top img-fluid" alt="Proses pemasangan kusen aluminium pada ruko di Singosari" width="800" height="450" loading="lazy" decoding="async">
                   <figcaption class="card-footer bg-light-subtle text-center small text-muted py-2 border-top-0 fst-italic">Teknisi profesional merakit dan menyetel kusen aluminium pada fasad ruko di Singosari — KUSEN ALUMINIUM Malang</figcaption>
                 </figure>
 
@@ -390,7 +413,7 @@
                 <h4 class="h5 fw-bold text-dark pb-2 mb-3 border-bottom border-2 border-warning">Artikel Terkait</h4>
                 
                 <a href="kusen-aluminium-alexindo-vs-ykk-ap-singosari.html" class="related-item d-flex align-items-center gap-3 text-decoration-none mb-3 pb-3 border-bottom">
-                  <img src="../assets/img/kusen-aluminium-alexindo-singosari.jpg" class="rounded-3 flex-shrink-0" style="width: 75px; height: 65px; object-fit: cover;" alt="Kusen Aluminium Alexindo vs YKK AP di Singosari">
+                  <img src="../assets/img/kusen-aluminium-alexindo-singosari.jpg" class="rounded-3 flex-shrink-0" width="75" height="65" loading="lazy" decoding="async" style="width: 75px; height: 65px; object-fit: cover;" alt="Kusen Aluminium Alexindo vs YKK AP di Singosari">
                   <div>
                     <h5 class="h6 fw-bold text-dark mb-1">Kusen Aluminium Alexindo vs YKK AP di Singosari: Pilih Mana?</h5>
                     <span class="small text-muted"><i class="bi bi-calendar-event me-1"></i>3 Sep 2026</span>
@@ -398,7 +421,7 @@
                 </a>
 
                 <a href="estimasi-biaya-pasang-kusen-aluminium-ruko-lowokwaru.html" class="related-item d-flex align-items-center gap-3 text-decoration-none mb-3 pb-3 border-bottom">
-                  <img src="../assets/img/estimasi-biaya-kusen-aluminium-ruko-lowokwaru.jpg" class="rounded-3 flex-shrink-0" style="width: 75px; height: 65px; object-fit: cover;" alt="Estimasi Biaya Pasang Kusen Aluminium Ruko di Lowokwaru">
+                  <img src="../assets/img/estimasi-biaya-kusen-aluminium-ruko-lowokwaru.jpg" class="rounded-3 flex-shrink-0" width="75" height="65" loading="lazy" decoding="async" style="width: 75px; height: 65px; object-fit: cover;" alt="Estimasi Biaya Pasang Kusen Aluminium Ruko di Lowokwaru">
                   <div>
                     <h5 class="h6 fw-bold text-dark mb-1">Estimasi Biaya Pasang Kusen Aluminium Ruko di Lowokwaru 2026</h5>
                     <span class="small text-muted"><i class="bi bi-calendar-event me-1"></i>5 Sep 2026</span>
@@ -406,7 +429,7 @@
                 </a>
 
                 <a href="cara-atasi-kusen-aluminium-bocor-hujan-deras-karangploso.html" class="related-item d-flex align-items-center gap-3 text-decoration-none">
-                  <img src="../assets/img/perbaikan-kusen-aluminium-bocor-karangploso.jpg" class="rounded-3 flex-shrink-0" style="width: 75px; height: 65px; object-fit: cover;" alt="Cara Atasi Kusen Bocor Hujan Deras Karangploso">
+                  <img src="../assets/img/perbaikan-kusen-aluminium-bocor-karangploso.jpg" class="rounded-3 flex-shrink-0" width="75" height="65" loading="lazy" decoding="async" style="width: 75px; height: 65px; object-fit: cover;" alt="Cara Atasi Kusen Bocor Hujan Deras Karangploso">
                   <div>
                     <h5 class="h6 fw-bold text-dark mb-1">Cara Mengatasi Kusen Aluminium Bocor Hujan Deras di Karangploso</h5>
                     <span class="small text-muted"><i class="bi bi-calendar-event me-1"></i>7 Sep 2026</span>
@@ -432,7 +455,7 @@
           <div class="col-md-6 col-lg-4">
             <article class="service-card card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
               <a href="estimasi-biaya-pasang-kusen-aluminium-ruko-malang.html" class="service-card-img position-relative overflow-hidden">
-                <img src="../assets/img/estimasi-biaya-kusen-aluminium-ruko-malang.jpg" class="card-img-top img-fluid" alt="Estimasi Biaya Pasang Kusen Aluminium Ruko di Malang">
+                <img src="../assets/img/estimasi-biaya-kusen-aluminium-ruko-malang.jpg" class="card-img-top img-fluid" alt="Estimasi Biaya Pasang Kusen Aluminium Ruko di Malang" width="400" height="260" loading="lazy" decoding="async">
                 <div class="service-icon-badge badge bg-warning text-dark position-absolute top-0 end-0 m-3 p-2 rounded-circle"><i class="bi bi-book"></i></div>
               </a>
               <div class="service-card-body card-body p-4 d-flex flex-column justify-content-between">
@@ -448,7 +471,7 @@
           <div class="col-md-6 col-lg-4">
             <article class="service-card card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
               <a href="kusen-aluminium-alexindo-vs-ykk-ap-singosari.html" class="service-card-img position-relative overflow-hidden">
-                <img src="../assets/img/kusen-aluminium-alexindo-singosari.jpg" class="card-img-top img-fluid" alt="Kusen Aluminium Alexindo vs YKK AP di Singosari">
+                <img src="../assets/img/kusen-aluminium-alexindo-singosari.jpg" class="card-img-top img-fluid" alt="Kusen Aluminium Alexindo vs YKK AP di Singosari" width="400" height="260" loading="lazy" decoding="async">
                 <div class="service-icon-badge badge bg-warning text-dark position-absolute top-0 end-0 m-3 p-2 rounded-circle"><i class="bi bi-book"></i></div>
               </a>
               <div class="service-card-body card-body p-4 d-flex flex-column justify-content-between">
@@ -464,7 +487,7 @@
           <div class="col-md-6 col-lg-4">
             <article class="service-card card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
               <a href="tips-pintu-sliding-aluminium-hemat-ruang-kos-blimbing.html" class="service-card-img position-relative overflow-hidden">
-                <img src="../assets/img/sliding-door-aluminium-kos-blimbing.jpg" class="card-img-top img-fluid" alt="Tips Pintu Sliding Aluminium Kos Blimbing">
+                <img src="../assets/img/sliding-door-aluminium-kos-blimbing.jpg" class="card-img-top img-fluid" alt="Tips Pintu Sliding Aluminium Kos Blimbing" width="400" height="260" loading="lazy" decoding="async">
                 <div class="service-icon-badge badge bg-warning text-dark position-absolute top-0 end-0 m-3 p-2 rounded-circle"><i class="bi bi-book"></i></div>
               </a>
               <div class="service-card-body card-body p-4 d-flex flex-column justify-content-between">
@@ -552,8 +575,8 @@
   </a>
 
   <!-- SCRIPTS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="../js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="../js/main.js?v=2.2" defer></script>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       document.querySelectorAll('.faq-mini-question').forEach(function (btn) {

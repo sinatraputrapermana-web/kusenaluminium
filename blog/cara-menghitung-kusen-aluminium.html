@@ -24,11 +24,34 @@
   <meta property="article:published_time" content="2026-09-12T08:00:00+07:00">
   <meta name="geo.region" content="ID-JI">
   <meta name="geo.placename" content="Kota Malang, Jawa Timur">
+  <!-- Preconnect & DNS-Prefetch for CDNs -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&amp;display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+  <!-- Preload Critical Featured Image -->
+  <link rel="preload" as="image" href="../assets/img/cara-menghitung-kusen-aluminium-rumah-minimalis.webp" type="image/webp" fetchpriority="high">
+
+  <!-- Google Fonts: Plus Jakarta Sans (Non-Render-Blocking) -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&amp;display=swap" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&amp;display=swap">
+  </noscript>
+
+  <!-- Core Bootstrap 5.3 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons (Non-Render-Blocking) -->
+  <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </noscript>
+
+  <!-- Custom Design System CSS -->
   <link rel="stylesheet" href="../css/style.css?v=2.2">
 
   <!-- Schema.org Article & FAQPage JSON-LD -->
@@ -148,7 +171,7 @@
               <!-- Author & Article Meta Bar -->
               <div class="article-top-meta d-flex flex-wrap align-items-center gap-3 pb-3 mb-4 border-bottom fs-6 text-muted">
                 <div class="meta-author d-inline-flex align-items-center gap-2 fw-bold text-dark me-3">
-                  <img src="../assets/img/avatar-2.webp" class="rounded-circle border border-2 border-warning shadow-sm" style="width: 44px; height: 44px; object-fit: cover;" alt="Rachel Wijayani">
+                  <img src="../assets/img/avatar-2.webp" class="rounded-circle border border-2 border-warning shadow-sm" width="44" height="44" loading="lazy" decoding="async" style="width: 44px; height: 44px; object-fit: cover;" alt="Rachel Wijayani">
                   <span>Rachel Wijayani</span>
                 </div>
                 <span class="d-inline-flex align-items-center"><i class="bi bi-calendar4-week text-warning me-1"></i> 12 September 2026</span>
@@ -156,7 +179,7 @@
 
               <!-- Featured Image Card -->
               <div class="featured-image-wrap card border-0 shadow-sm rounded-4 overflow-hidden mb-4">
-                <img src="../assets/img/cara-menghitung-kusen-aluminium-rumah-minimalis.webp" class="card-img-top img-fluid" alt="Cara Menghitung Kusen Aluminium Rumah Minimalis" loading="lazy">
+                <img src="../assets/img/cara-menghitung-kusen-aluminium-rumah-minimalis.webp" class="card-img-top img-fluid" alt="Cara Menghitung Kusen Aluminium Rumah Minimalis" width="800" height="450" fetchpriority="high" decoding="async">
                 <div class="featured-caption card-footer bg-light-subtle text-center fst-italic small text-muted py-2 border-top-0">
                   Panduan menghitung kusen aluminium rumah minimalis dengan rumus meter lari dan simulasi RAB akurat — KUSEN ALUMINIUM Malang
                 </div>
@@ -249,7 +272,7 @@
 
                 <!-- ILUSTRASI GAMBAR TAMBAHAN -->
                 <figure class="body-figure card border-0 shadow-sm rounded-4 overflow-hidden my-4">
-                  <img src="../assets/img/cara-menghitung-kusen-aluminium.webp" class="card-img-top img-fluid" alt="Pengukuran dan Perhitungan Kusen Aluminium Pintu dan Jendela Minimalis" loading="lazy">
+                  <img src="../assets/img/cara-menghitung-kusen-aluminium.webp" class="card-img-top img-fluid" alt="Pengukuran dan Perhitungan Kusen Aluminium Pintu dan Jendela Minimalis" width="800" height="450" loading="lazy" decoding="async">
                   <figcaption class="card-footer bg-light-subtle text-center small text-muted py-2 border-top-0 fst-italic">
                     Teknis pengukuran dan simulasi perhitungan kusen aluminium profil 3 dan 4 inci di lapangan — KUSEN ALUMINIUM Malang
                   </figcaption>
@@ -456,7 +479,7 @@
                 <h4 class="h5 fw-bold text-dark pb-2 mb-3 border-bottom border-2 border-warning">Artikel Terkait</h4>
                 
                 <a href="harga-kusen-aluminium.html" class="related-item d-flex align-items-center gap-3 text-decoration-none mb-3 pb-3 border-bottom">
-                  <img src="../assets/img/harga-kusen-aluminium.webp" class="rounded-3 flex-shrink-0" style="width: 75px; height: 65px; object-fit: cover;" alt="Harga Kusen Aluminium per Meter Malang 2026">
+                  <img src="../assets/img/harga-kusen-aluminium.webp" class="rounded-3 flex-shrink-0" width="75" height="65" loading="lazy" decoding="async" style="width: 75px; height: 65px; object-fit: cover;" alt="Harga Kusen Aluminium per Meter Malang 2026">
                   <div>
                     <h5 class="h6 fw-bold text-dark mb-1">Harga Kusen Aluminium per Meter Malang 2026</h5>
                     <span class="small text-muted"><i class="bi bi-calendar-event me-1"></i>11 Sep 2026</span>
@@ -464,7 +487,7 @@
                 </a>
 
                 <a href="kusen-aluminium-anti-karat.html" class="related-item d-flex align-items-center gap-3 text-decoration-none mb-3 pb-3 border-bottom">
-                  <img src="../assets/img/kusen-aluminium-anti-karat-iklim-malang.webp" class="rounded-3 flex-shrink-0" style="width: 75px; height: 65px; object-fit: cover;" alt="Kusen Aluminium Anti Karat untuk Iklim Malang">
+                  <img src="../assets/img/kusen-aluminium-anti-karat-iklim-malang.webp" class="rounded-3 flex-shrink-0" width="75" height="65" loading="lazy" decoding="async" style="width: 75px; height: 65px; object-fit: cover;" alt="Kusen Aluminium Anti Karat untuk Iklim Malang">
                   <div>
                     <h5 class="h6 fw-bold text-dark mb-1">Kusen Aluminium Anti Karat untuk Iklim Malang</h5>
                     <span class="small text-muted"><i class="bi bi-calendar-event me-1"></i>11 Sep 2026</span>
@@ -472,7 +495,7 @@
                 </a>
 
                 <a href="simulasi-harga-kusen-aluminium.html" class="related-item d-flex align-items-center gap-3 text-decoration-none">
-                  <img src="../assets/img/simulasi-harga-kusen-aluminium-online.webp" class="rounded-3 flex-shrink-0" style="width: 75px; height: 65px; object-fit: cover;" alt="Cara Pakai Simulasi Harga Kusen Aluminium Online">
+                  <img src="../assets/img/simulasi-harga-kusen-aluminium-online.webp" class="rounded-3 flex-shrink-0" width="75" height="65" loading="lazy" decoding="async" style="width: 75px; height: 65px; object-fit: cover;" alt="Cara Pakai Simulasi Harga Kusen Aluminium Online">
                   <div>
                     <h5 class="h6 fw-bold text-dark mb-1">Cara Pakai Simulasi Harga Kusen Aluminium Online</h5>
                     <span class="small text-muted"><i class="bi bi-calendar-event me-1"></i>12 Sep 2026</span>
@@ -498,7 +521,7 @@
           <div class="col-md-6 col-lg-4">
             <article class="service-card card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
               <a href="harga-kusen-aluminium.html" class="service-card-img position-relative overflow-hidden">
-                <img src="../assets/img/harga-kusen-aluminium.webp" class="card-img-top img-fluid" alt="Harga Kusen Aluminium per Meter Malang 2026">
+                <img src="../assets/img/harga-kusen-aluminium.webp" class="card-img-top img-fluid" alt="Harga Kusen Aluminium per Meter Malang 2026" width="400" height="260" loading="lazy" decoding="async">
                 <div class="service-icon-badge badge bg-warning text-dark position-absolute top-0 end-0 m-3 p-2 rounded-circle"><i class="bi bi-book"></i></div>
               </a>
               <div class="service-card-body card-body p-4 d-flex flex-column justify-content-between">
@@ -514,7 +537,7 @@
           <div class="col-md-6 col-lg-4">
             <article class="service-card card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
               <a href="kusen-aluminium-anti-karat.html" class="service-card-img position-relative overflow-hidden">
-                <img src="../assets/img/kusen-aluminium-anti-karat-iklim-malang.webp" class="card-img-top img-fluid" alt="Kusen Aluminium Anti Karat untuk Iklim Malang">
+                <img src="../assets/img/kusen-aluminium-anti-karat-iklim-malang.webp" class="card-img-top img-fluid" alt="Kusen Aluminium Anti Karat untuk Iklim Malang" width="400" height="260" loading="lazy" decoding="async">
                 <div class="service-icon-badge badge bg-warning text-dark position-absolute top-0 end-0 m-3 p-2 rounded-circle"><i class="bi bi-book"></i></div>
               </a>
               <div class="service-card-body card-body p-4 d-flex flex-column justify-content-between">
@@ -530,7 +553,7 @@
           <div class="col-md-6 col-lg-4">
             <article class="service-card card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
               <a href="simulasi-harga-kusen-aluminium.html" class="service-card-img position-relative overflow-hidden">
-                <img src="../assets/img/simulasi-harga-kusen-aluminium-online.webp" class="card-img-top img-fluid" alt="Cara Pakai Simulasi Harga Kusen Aluminium Online">
+                <img src="../assets/img/simulasi-harga-kusen-aluminium-online.webp" class="card-img-top img-fluid" alt="Cara Pakai Simulasi Harga Kusen Aluminium Online" width="400" height="260" loading="lazy" decoding="async">
                 <div class="service-icon-badge badge bg-warning text-dark position-absolute top-0 end-0 m-3 p-2 rounded-circle"><i class="bi bi-book"></i></div>
               </a>
               <div class="service-card-body card-body p-4 d-flex flex-column justify-content-between">
@@ -618,8 +641,8 @@
   </a>
 
   <!-- SCRIPTS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="../js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="../js/main.js?v=2.2" defer></script>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       document.querySelectorAll('.faq-mini-question').forEach(function (btn) {
