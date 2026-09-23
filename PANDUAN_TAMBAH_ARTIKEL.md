@@ -325,8 +325,8 @@ Gunakan template HTML di bawah ini sebagai pondasi pembuatan file artikel baru:
             <article class="article-card-wrapper card border-0 shadow-sm rounded-4 p-4 p-md-5 mb-4">
 
               <!-- Category Badge -->
-              <div class="article-category-badge badge bg-warning-subtle text-dark border border-warning-subtle rounded-pill fs-6 px-3 py-2 text-decoration-none mb-3 d-inline-flex align-items-center">
-                <i class="bi {{ICON_KATEGORI}} me-1 text-warning"></i> {{NAMA_KATEGORI}}
+              <div class="article-category-badge">
+                <i class="bi {{ICON_KATEGORI}} me-1"></i> {{NAMA_KATEGORI}}
               </div>
 
               <!-- Main Article Title -->
