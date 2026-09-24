@@ -1975,8 +1975,9 @@ a:hover h1, a:hover h2, a:hover h3, a:hover h4, a:hover h5, a:hover h6 {
   .phase-flow-grid {
     grid-template-columns: 1fr;
   }
+}
 
-  /* --- 16. TESTIMONIAL AUTOMATIC CAROUSEL STYLES (HARMONIZED WITH SITE THEME) --- */
+/* --- 16. TESTIMONIAL AUTOMATIC CAROUSEL STYLES (HARMONIZED WITH SITE THEME) --- */
   .testimonial-section-title {
     font-size: clamp(1.8rem, 3.5vw, 2.3rem);
     font-weight: 800;
