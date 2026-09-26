@@ -39,7 +39,7 @@
   <!-- Blog Artikel Catalog -->
   <url>
     <loc>https://kusenaluminium.web.id/blog.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -504,6 +504,22 @@
   <url>
     <loc>https://kusenaluminium.web.id/blog/cara-atasi-kusen-aluminium-bocor-hujan-kepanjen.html</loc>
     <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Kusen Aluminium Knock Down, Cara Kerja dan Biaya (26 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/kusen-aluminium-knock-down.html</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Estimasi Biaya Pasang Kusen Aluminium Ruko di Batu 2026 (26 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/estimasi-biaya-pasang-kusen-aluminium-ruko-batu.html</loc>
+    <lastmod>2026-09-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
