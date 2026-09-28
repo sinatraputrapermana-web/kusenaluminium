@@ -39,7 +39,7 @@
   <!-- Blog Artikel Catalog -->
   <url>
     <loc>https://kusenaluminium.web.id/blog.html</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -520,6 +520,14 @@
   <url>
     <loc>https://kusenaluminium.web.id/blog/estimasi-biaya-pasang-kusen-aluminium-ruko-batu.html</loc>
     <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Kusen Tahan Cuaca Hujan untuk Dataran Tinggi Malang (28 Sep 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/kusen-tahan-cuaca-hujan.html</loc>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
