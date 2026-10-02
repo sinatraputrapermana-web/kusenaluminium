@@ -39,7 +39,7 @@
   <!-- Blog Artikel Catalog -->
   <url>
     <loc>https://kusenaluminium.web.id/blog.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -504,6 +504,22 @@
   <url>
     <loc>https://kusenaluminium.web.id/blog/cara-atasi-kusen-aluminium-bocor-hujan-kepanjen.html</loc>
     <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Cara Atasi Kusen Aluminium Bocor Saat Hujan Deras di Sukun (2 Okt 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/cara-atasi-kusen-aluminium-bocor-hujan-sukun.html</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Kusen Aluminium Alexindo vs YKK AP di Blimbing (2 Okt 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/kusen-aluminium-alexindo-vs-ykk-ap-blimbing.html</loc>
+    <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
