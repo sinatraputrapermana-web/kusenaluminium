@@ -39,7 +39,7 @@
   <!-- Blog Artikel Catalog -->
   <url>
     <loc>https://kusenaluminium.web.id/blog.html</loc>
-    <lastmod>2026-10-02</lastmod>
+    <lastmod>2026-10-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -560,6 +560,22 @@
   <url>
     <loc>https://kusenaluminium.web.id/blog/kusen-aluminium-alexindo-vs-ykk-ap-blimbing.html</loc>
     <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Studi Kasus Pasang Partisi Kaca Tempered Kantor di Dau (3 Okt 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/studi-kasus-partisi-kaca-tempered-kantor-dau.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Artikel: Tips Pintu Sliding Aluminium Hemat Ruang Kos di Singosari (3 Okt 2026) -->
+  <url>
+    <loc>https://kusenaluminium.web.id/blog/tips-pintu-sliding-aluminium-hemat-ruang-kos-singosari.html</loc>
+    <lastmod>2026-10-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
